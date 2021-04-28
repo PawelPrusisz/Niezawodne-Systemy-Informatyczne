@@ -1,0 +1,2 @@
+primes.adb:10:17: medium: overflow check might fail (e.g. when sqrN = 2)[#0]
+primes.ads:7:42: medium: postcondition might fail, cannot prove N rem I /= 0 (e.g. when I = 4 and N = 9)[#1]

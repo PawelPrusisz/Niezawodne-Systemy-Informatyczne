@@ -1,0 +1,2 @@
+max2.adb:25:32: quantified expression must be parenthesized
+max2.adb:25:83: quantified expression must be parenthesized

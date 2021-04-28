@@ -1,0 +1,1 @@
+max2.adb:19:36: attribute "Result" can only appear in postcondition of function

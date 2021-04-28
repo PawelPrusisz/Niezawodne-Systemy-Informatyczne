@@ -1,0 +1,3 @@
+project Smallest_Factor is
+	for Main use ("Smallest_Factor ");
+end Smallest_Factor ;

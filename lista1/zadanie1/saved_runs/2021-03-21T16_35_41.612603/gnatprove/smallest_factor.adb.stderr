@@ -1,0 +1,1 @@
+smallest_factor.adb:18:11: medium: range check might fail (e.g. when Factor = Positive'Last and N = 2)[#0]

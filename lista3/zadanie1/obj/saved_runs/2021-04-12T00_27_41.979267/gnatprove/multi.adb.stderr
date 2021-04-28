@@ -1,0 +1,7 @@
+multi.adb:19:32: medium: loop invariant might fail in first iteration, cannot prove AA < A * B (e.g. when A = 0 and AA = 0 and B = 1)[#4]
+multi.adb:19:32: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove AA < A * B (e.g. when A = 2 and AA = 2 and B = 1)[#5]
+multi.adb:20:32: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove AB <= A * B (e.g. when A = 6 and AB = 31 and B = 5)[#3]
+multi.adb:21:32: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove Pow <= B (e.g. when B = 1 and Pow = 2)[#2]
+multi.adb:22:32: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove AB = A * (B rem Pow) (e.g. when A = 3 and AB = 0 and B = 3 and Pow = 2)[#1]
+multi.adb:22:44: medium: divide by zero might fail (e.g. when Pow = 0)[#0]
+multi.ads:6:16: medium: postcondition might fail, cannot prove Mult'Result = A * B (e.g. when A = 1 and B = 2 and Mult'Result = 0)[#6]

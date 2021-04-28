@@ -1,0 +1,4 @@
+multi.adb:17:32: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove AA < A * B (e.g. when A = 2 and AA = 2 and B = 1)[#1]
+multi.adb:17:32: medium: loop invariant might fail in first iteration, cannot prove AA < A * B (e.g. when A = 0 and AA = 0 and B = 1)[#2]
+multi.adb:18:32: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove AB <= A * B (e.g. when A = 2 and AB = 7 and B = 3)[#0]
+multi.ads:6:16: medium: postcondition might fail, cannot prove Mult'Result = A * B (e.g. when A = 1 and B = 2 and Mult'Result = 0)[#3]

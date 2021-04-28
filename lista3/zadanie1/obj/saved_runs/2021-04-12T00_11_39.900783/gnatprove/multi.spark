@@ -1,0 +1,2212 @@
+{
+  "spark": [
+    {
+      "name": "Multi",
+      "sloc": [
+        {
+          "file": "multi.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Multi.Mult",
+      "sloc": [
+        {
+          "file": "multi.ads",
+          "line": 3
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+  ],
+  "session_map": {
+    " 1": "/home/pawel/Desktop/ADA/lista3/zadanie1/obj/gnatprove/multi__mult"
+  },
+  "proof": [
+    {
+      "file": "multi.adb",
+      "line": 12,
+      "col": 21,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 12,
+      "check_col": 21,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "multi.adb",
+      "line": 13,
+      "col": 21,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 13,
+      "check_col": 21,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "multi.adb",
+      "line": 16,
+      "col": 24,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 704,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 16,
+      "check_col": 24,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "multi.adb",
+      "line": 17,
+      "col": 22,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 328,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 17,
+      "check_col": 22,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "multi.adb",
+      "line": 15,
+      "col": 17,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 15,
+      "check_col": 17,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "multi.adb",
+      "line": 19,
+      "col": 18,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 231,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 19,
+      "check_col": 18,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "multi.adb",
+      "line": 20,
+      "col": 19,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 20,
+      "check_col": 19,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 9.99999977648258E-03
+        }
+      }
+    },
+    {
+      "file": "multi.adb",
+      "line": 21,
+      "col": 21,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 21,
+      "check_col": 21,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "multi.adb",
+      "line": 25,
+      "col": 39,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 1498,
+              "time": 1.00000000000000E-01
+            },
+            "CVC4_CE": {
+              "result": "Unknown (unknown)",
+              "steps": 1459,
+              "time": 9.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 255,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 25,
+      "check_col": 39,
+      "cntexmp": {
+        "multi.adb": {
+          "previous": {
+            "25": [
+              {
+                "name": "AA",
+                "value": "65538",
+                "kind": "variable"
+              },
+              {
+                "name": "AB",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "Pow",
+                "value": "65537",
+                "kind": "variable"
+              },
+              {
+                "name": "Tmp",
+                "value": "0",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "6": [
+              {
+                "name": "A",
+                "value": "6",
+                "kind": "variable"
+              }
+            ],
+            "7": [
+              {
+                "name": "B",
+                "value": "5",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "B1",
+                "value": "5",
+                "kind": "variable"
+              }
+            ],
+            "15": [
+              {
+                "name": "B1",
+                "value": "5",
+                "kind": "variable"
+              }
+            ],
+            "16": [
+              {
+                "name": "Pow",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "Tmp",
+                "value": "65537",
+                "kind": "variable"
+              }
+            ],
+            "17": [
+              {
+                "name": "AA",
+                "value": "6",
+                "kind": "variable"
+              },
+              {
+                "name": "AB",
+                "value": "65538",
+                "kind": "variable"
+              }
+            ],
+            "19": [
+              {
+                "name": "AA",
+                "value": "131076",
+                "kind": "variable"
+              }
+            ],
+            "20": [
+              {
+                "name": "B1",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "21": [
+              {
+                "name": "Pow",
+                "value": "131074",
+                "kind": "variable"
+              }
+            ],
+            "22": [
+              {
+                "name": "B",
+                "value": "5",
+                "kind": "variable"
+              }
+            ],
+            "23": [
+              {
+                "name": "B",
+                "value": "5",
+                "kind": "variable"
+              }
+            ],
+            "24": [
+              {
+                "name": "AA",
+                "value": "65538",
+                "kind": "variable"
+              }
+            ],
+            "25": [
+              {
+                "name": "A",
+                "value": "6",
+                "kind": "variable"
+              },
+              {
+                "name": "Tmp",
+                "value": "65537",
+                "kind": "variable"
+              }
+            ]
+          }
+        },
+        "multi.ads": {
+          "previous": {
+          },
+          "current": {
+            "3": [
+              {
+                "name": "A",
+                "value": "6",
+                "kind": "variable"
+              },
+              {
+                "name": "B",
+                "value": "5",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 0,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "multi.adb",
+      "line": 25,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "medium",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 359,
+              "time": 3.00000000000000E-02
+            },
+            "CVC4_CE": {
+              "result": "Unknown (unknown)",
+              "steps": 470,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 25,
+      "check_col": 32,
+      "cntexmp": {
+        "multi.adb": {
+          "previous": {
+            "25": [
+              {
+                "name": "AA",
+                "value": "3",
+                "kind": "variable"
+              },
+              {
+                "name": "AB",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "Pow",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "Tmp",
+                "value": "0",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "6": [
+              {
+                "name": "A",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "7": [
+              {
+                "name": "B",
+                "value": "3",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "B1",
+                "value": "3",
+                "kind": "variable"
+              }
+            ],
+            "15": [
+              {
+                "name": "B1",
+                "value": "3",
+                "kind": "variable"
+              }
+            ],
+            "16": [
+              {
+                "name": "Pow",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "Tmp",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "17": [
+              {
+                "name": "AA",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "AB",
+                "value": "3",
+                "kind": "variable"
+              }
+            ],
+            "19": [
+              {
+                "name": "AA",
+                "value": "6",
+                "kind": "variable"
+              }
+            ],
+            "20": [
+              {
+                "name": "B1",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "21": [
+              {
+                "name": "Pow",
+                "value": "4",
+                "kind": "variable"
+              }
+            ],
+            "22": [
+              {
+                "name": "B",
+                "value": "3",
+                "kind": "variable"
+              }
+            ],
+            "23": [
+              {
+                "name": "B",
+                "value": "3",
+                "kind": "variable"
+              }
+            ],
+            "24": [
+              {
+                "name": "AA",
+                "value": "3",
+                "kind": "variable"
+              }
+            ],
+            "25": [
+              {
+                "name": "A",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "AB",
+                "value": "3",
+                "kind": "variable"
+              },
+              {
+                "name": "Tmp",
+                "value": "2",
+                "kind": "variable"
+              }
+            ]
+          }
+        },
+        "multi.ads": {
+          "previous": {
+          },
+          "current": {
+            "3": [
+              {
+                "name": "A",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "B",
+                "value": "3",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 1,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "multi.adb",
+      "line": 25,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 233,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 25,
+      "check_col": 32,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "multi.adb",
+      "line": 24,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "medium",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 117,
+              "time": 2.00000000000000E-02
+            },
+            "CVC4_CE": {
+              "result": "Unknown (unknown)",
+              "steps": 136,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 24,
+      "check_col": 32,
+      "cntexmp": {
+        "multi.adb": {
+          "previous": {
+          },
+          "current": {
+            "5": [
+              {
+                "name": "AB",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "6": [
+              {
+                "name": "A",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "AA",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "7": [
+              {
+                "name": "B",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "8": [
+              {
+                "name": "Tmp",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "9": [
+              {
+                "name": "Pow",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "12": [
+              {
+                "name": "AA",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "13": [
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "15": [
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "16": [
+              {
+                "name": "Pow",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "Tmp",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "17": [
+              {
+                "name": "AA",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "AB",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "19": [
+              {
+                "name": "AA",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "20": [
+              {
+                "name": "B1",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "21": [
+              {
+                "name": "Pow",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "22": [
+              {
+                "name": "B",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "23": [
+              {
+                "name": "B",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "24": [
+              {
+                "name": "AA",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "Pow",
+                "value": "2",
+                "kind": "variable"
+              }
+            ]
+          }
+        },
+        "multi.ads": {
+          "previous": {
+          },
+          "current": {
+            "3": [
+              {
+                "name": "A",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "B",
+                "value": "1",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 2,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "multi.adb",
+      "line": 24,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "info",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 24,
+      "check_col": 32,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 9.99999977648258E-03
+        }
+      }
+    },
+    {
+      "file": "multi.adb",
+      "line": 23,
+      "col": 40,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 23,
+      "check_col": 40,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 9.99999977648258E-03
+        }
+      }
+    },
+    {
+      "file": "multi.adb",
+      "line": 23,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "medium",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 208,
+              "time": 0
+            },
+            "CVC4_CE": {
+              "result": "Unknown (unknown)",
+              "steps": 669,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 23,
+      "check_col": 32,
+      "cntexmp": {
+        "multi.adb": {
+          "previous": {
+            "25": [
+              {
+                "name": "AA",
+                "value": "3",
+                "kind": "variable"
+              },
+              {
+                "name": "AB",
+                "value": "4",
+                "kind": "variable"
+              },
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "Pow",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "Tmp",
+                "value": "2",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "6": [
+              {
+                "name": "A",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "7": [
+              {
+                "name": "B",
+                "value": "3",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "B1",
+                "value": "3",
+                "kind": "variable"
+              }
+            ],
+            "15": [
+              {
+                "name": "B1",
+                "value": "3",
+                "kind": "variable"
+              }
+            ],
+            "16": [
+              {
+                "name": "Pow",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "Tmp",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "17": [
+              {
+                "name": "AA",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "AB",
+                "value": "7",
+                "kind": "variable"
+              }
+            ],
+            "19": [
+              {
+                "name": "AA",
+                "value": "6",
+                "kind": "variable"
+              }
+            ],
+            "20": [
+              {
+                "name": "B1",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "21": [
+              {
+                "name": "Pow",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "22": [
+              {
+                "name": "B",
+                "value": "3",
+                "kind": "variable"
+              }
+            ],
+            "23": [
+              {
+                "name": "A",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "AB",
+                "value": "7",
+                "kind": "variable"
+              },
+              {
+                "name": "B",
+                "value": "3",
+                "kind": "variable"
+              }
+            ],
+            "24": [
+              {
+                "name": "AA",
+                "value": "3",
+                "kind": "variable"
+              }
+            ],
+            "25": [
+              {
+                "name": "Tmp",
+                "value": "2",
+                "kind": "variable"
+              }
+            ]
+          }
+        },
+        "multi.ads": {
+          "previous": {
+          },
+          "current": {
+            "3": [
+              {
+                "name": "A",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "B",
+                "value": "3",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 3,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "multi.adb",
+      "line": 23,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 143,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 23,
+      "check_col": 32,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "multi.adb",
+      "line": 22,
+      "col": 40,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 258,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 22,
+      "check_col": 40,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 9.99999977648258E-03
+        }
+      }
+    },
+    {
+      "file": "multi.adb",
+      "line": 22,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "medium",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown ()",
+              "steps": 133,
+              "time": 0
+            },
+            "CVC4_CE": {
+              "result": "Unknown (unknown)",
+              "steps": 194,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 22,
+      "check_col": 32,
+      "cntexmp": {
+        "multi.adb": {
+          "previous": {
+          },
+          "current": {
+            "5": [
+              {
+                "name": "AB",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "6": [
+              {
+                "name": "A",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "AA",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "7": [
+              {
+                "name": "B",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "8": [
+              {
+                "name": "Tmp",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "9": [
+              {
+                "name": "Pow",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "12": [
+              {
+                "name": "AA",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "13": [
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "15": [
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "16": [
+              {
+                "name": "Pow",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "Tmp",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "17": [
+              {
+                "name": "AA",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "AB",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "19": [
+              {
+                "name": "AA",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "20": [
+              {
+                "name": "B1",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "21": [
+              {
+                "name": "Pow",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "22": [
+              {
+                "name": "A",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "AA",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "B",
+                "value": "1",
+                "kind": "variable"
+              }
+            ]
+          }
+        },
+        "multi.ads": {
+          "previous": {
+          },
+          "current": {
+            "3": [
+              {
+                "name": "A",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "B",
+                "value": "1",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 4,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "multi.adb",
+      "line": 22,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "medium",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 159,
+              "time": 2.00000000000000E-02
+            },
+            "CVC4_CE": {
+              "result": "Unknown (unknown)",
+              "steps": 209,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 22,
+      "check_col": 32,
+      "cntexmp": {
+        "multi.adb": {
+          "previous": {
+            "25": [
+              {
+                "name": "AA",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "AB",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "Pow",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "Tmp",
+                "value": "0",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "6": [
+              {
+                "name": "A",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "7": [
+              {
+                "name": "B",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "15": [
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "16": [
+              {
+                "name": "Pow",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "Tmp",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "17": [
+              {
+                "name": "AA",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "AB",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "19": [
+              {
+                "name": "AA",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "20": [
+              {
+                "name": "B1",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "21": [
+              {
+                "name": "Pow",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "22": [
+              {
+                "name": "A",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "AA",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "B",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "23": [
+              {
+                "name": "B",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "24": [
+              {
+                "name": "AA",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "25": [
+              {
+                "name": "Tmp",
+                "value": "0",
+                "kind": "variable"
+              }
+            ]
+          }
+        },
+        "multi.ads": {
+          "previous": {
+          },
+          "current": {
+            "3": [
+              {
+                "name": "A",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "B",
+                "value": "1",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 5,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "multi.ads",
+      "line": 6,
+      "col": 32,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 182,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "multi.ads",
+      "check_line": 6,
+      "check_col": 32,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "multi.ads",
+      "line": 6,
+      "col": 16,
+      "rule": "VC_POSTCONDITION",
+      "severity": "medium",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 344,
+              "time": 3.00000000000000E-02
+            },
+            "CVC4_CE": {
+              "result": "Unknown (unknown)",
+              "steps": 379,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "multi.ads",
+      "check_line": 6,
+      "check_col": 16,
+      "cntexmp": {
+        "multi.adb": {
+          "previous": {
+            "25": [
+              {
+                "name": "AA",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "AB",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "B1",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "Pow",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "Tmp",
+                "value": "0",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "6": [
+              {
+                "name": "A",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "7": [
+              {
+                "name": "B",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "B1",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "15": [
+              {
+                "name": "B1",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "19": [
+              {
+                "name": "AA",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "20": [
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "21": [
+              {
+                "name": "Pow",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "22": [
+              {
+                "name": "B",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "23": [
+              {
+                "name": "B",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "24": [
+              {
+                "name": "AA",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "25": [
+              {
+                "name": "Tmp",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "28": [
+              {
+                "name": "AB",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "Mult'Result",
+                "value": "0",
+                "kind": "variable"
+              }
+            ]
+          }
+        },
+        "multi.ads": {
+          "previous": {
+          },
+          "current": {
+            "3": [
+              {
+                "name": "A",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "B",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "6": [
+              {
+                "name": "A",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "B",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "Mult'Result",
+                "value": "0",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 6,
+      "session_dir": 1,
+      "how_proved": "prover"
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Multi",
+          "sloc": [
+            {
+              "file": "multi.ads",
+              "line": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Multi.Mult",
+          "sloc": [
+            {
+              "file": "multi.ads",
+              "line": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "gnatwhy3.transformations.inline_trivial": 4.18036997318268E-01,
+    "codepeer results": 3.09999995806720E-05,
+    "init_why_sections": 4.52000007499009E-04,
+    "gnatwhy3.transformations.detect_polymorphism": 2.84600001759827E-03,
+    "globals/properties (advanced)": 2.03999996301718E-04,
+    "gnatwhy3.transformations.eliminate_literal": 5.71600021794438E-03,
+    "gnatwhy3.run_vcs": 2.59007006883621E-01,
+    "gnatwhy3.transformations.eliminate_algebraic_if_poly": 3.95399983972311E-03,
+    "gnatwhy3.transformations.eliminate_definition_if_poly": 2.51100002788007E-03,
+    "flow analysis": 1.56100001186132E-03,
+    "gnatwhy3.transformations.simplify_formula": 5.71499997749925E-03,
+    "marking": 1.34000001708046E-04,
+    "translation of standard": 3.12000000849366E-03,
+    "gnatwhy3.register_vcs": 1.01680001243949E-02,
+    "gnatwhy3.transformations.eliminate_epsilon": 4.67000016942620E-03,
+    "globals (basic)": 1.08000000182074E-04,
+    "gnatwhy3.schedule_vcs": 1.66099995840341E-03,
+    "gnatwhy3.transformations.prepare_for_counterexmp": 1.48860001936555E-02,
+    "gnatwhy3.save_session": 6.21700007468462E-03,
+    "gnatwhy3.transformations.eliminate_inductive": 2.43399990722537E-03,
+    "gnatwhy3.transformations.encoding_smt_if_poly": 3.40000005962793E-05,
+    "gnatwhy3.transformations.eliminate_unused_hypo": 3.55250015854836E-02,
+    "gnatwhy3.transformations.eliminate_builtin": 3.03800008259714E-03,
+    "gnatwhy3.transformations.discriminate_if_poly": 8.49999996717088E-05,
+    "gnatwhy3.init": 2.64714986085892E-01
+  }
+}

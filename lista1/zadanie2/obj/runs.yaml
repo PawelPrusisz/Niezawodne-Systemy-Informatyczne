@@ -1,0 +1,34 @@
+'2021-04-11T19:37:31.584259':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/ADA/lista1/zadanie2/obj/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    poly.adb:11:79: medium: overflow check might fail[#1]
+
+    poly.adb:11:81: medium: overflow check might fail[#0]
+
+    poly.adb:15:22: medium: overflow check might fail (e.g. when Ans = 2 and X = -2)[#2]
+
+    poly.adb:15:27: medium: overflow check might fail (e.g. when A = (1 => 0, others
+    => -2147483649) and A''First = 0 and A''Last = 1 and Ans = 0 and I = 0 and X =
+    0)[#3]
+
+    poly.adb:16:17: medium: overflow check might fail (e.g. when A = (1 => 0, others
+    => -3) and A''First = 0 and A''Last = 1 and I = 0 and X = 0 and Z = -8)[#6]
+
+    poly.adb:16:25: medium: overflow check might fail (e.g. when A = (others => -2)
+    and A''First = 0 and A''Last = 0 and I = 0 and X = 0) [possible explanation: subprogram
+    at poly.ads:5 should mention A and X in a precondition][#5]
+
+    poly.adb:16:29: medium: overflow check might fail [possible explanation: subprogram
+    at poly.ads:5 should mention X in a precondition][#4]
+
+    Summary logged in /home/pawel/Desktop/ADA/lista1/zadanie2/obj/gnatprove/gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-11T19:37:31.584259'

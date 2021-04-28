@@ -1,0 +1,29 @@
+V "GNAT Lib v2020"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U multi%b		multi.adb		5fc17ce6 NE OO PK
+
+U multi%s		multi.ads		f8712f00 EE NE OO PK
+
+D multi.ads		20210411212427 f8712f00 multi%s
+D multi.adb		20210411213601 a7b053e6 multi%b
+D system.ads		20200228061809 4635ec04 system%s
+G a e
+G c Z s b [mult multi 3 13 none]
+X 1 multi.ads
+1K9*Multi 8l5 8e10 2|1b14 24l5 24t10
+3V13*Mult{natural} 3>20 3>33 6r16 2|2b13 23l8 23t12
+3i20 A{natural} 5r15 6r30 2|2b20 6r23 18r38 19r38
+3i33 B{natural} 5r29 6r34 2|2b33 7r23 18r42 19r42
+X 2 multi.adb
+5i7 AB{natural} 14m13 14r19 19r32 22r14
+6i7 AA{natural} 10r21 14r24 16m10 16r20 18r32
+7i7 B1{natural} 11r21 12r13 13r14 17m10 17r16
+

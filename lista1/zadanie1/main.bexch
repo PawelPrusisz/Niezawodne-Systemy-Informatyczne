@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/pawel/Desktop/niezawodne/lista1/zadanie1/Smallest_Factor.gpr
+20210324103758 6ec4361ac06dfead2ff10cb12c4f2408
+[BOUND OBJECT FILES]
+/home/pawel/Desktop/niezawodne/lista1/zadanie1/smallest_factor.o
+/home/pawel/Desktop/niezawodne/lista1/zadanie1/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/pawel/Desktop/niezawodne/lista1/zadanie1/
+-L/home/pawel/Desktop/niezawodne/lista1/zadanie1/
+-L/home/pawel/opt/GNAT/2020/lib/gcc/x86_64-pc-linux-gnu/9.3.1/adalib/
+-static
+-static-libgcc
+/home/pawel/opt/GNAT/2020/lib/gcc/x86_64-pc-linux-gnu/9.3.1/adalib/libgnat.a
+-ldl

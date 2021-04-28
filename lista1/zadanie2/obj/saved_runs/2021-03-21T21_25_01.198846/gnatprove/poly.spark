@@ -1,0 +1,41 @@
+{
+  "spark": [
+    {
+      "name": "Poly",
+      "sloc": [
+        {
+          "file": "poly.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Poly.Horner",
+      "sloc": [
+        {
+          "file": "poly.ads",
+          "line": 5
+        }
+      ],
+      "spark": "spec"
+    }
+  ],
+  "flow": [
+  ],
+  "session_map": {
+  },
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "codepeer results": 6.00000021222513E-06,
+    "init_why_sections": 5.47999981790781E-03,
+    "globals/properties (advanced)": 1.48999999510124E-04,
+    "flow analysis": 1.90000006114133E-04,
+    "marking": 9.30000023799948E-05,
+    "translation of standard": 4.25000023096800E-03,
+    "globals (basic)": 9.40000027185306E-05
+  }
+}

@@ -1,0 +1,5 @@
+max2.adb:6:25: value not in range of type "Standard.Positive"
+max2.adb:6:25: "Constraint_Error" would have been raised at run time
+max2.adb:7:25: value not in range of type "Standard.Positive"
+max2.adb:7:25: "Constraint_Error" would have been raised at run time
+max2.adb:19:36: attribute "Result" can only appear in postcondition of function

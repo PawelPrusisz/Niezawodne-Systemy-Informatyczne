@@ -1,0 +1,63 @@
+'2021-04-14T10:45:50.707530':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/ADA/lista2/zadanie1/obj/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    primes.adb:10:17: medium: overflow check might fail (e.g. when sqrN = 2)[#0]
+
+    primes.ads:7:42: medium: postcondition might fail, cannot prove N rem I /= 0 (e.g.
+    when I = 4 and N = 9)[#1]
+
+    Summary logged in /home/pawel/Desktop/ADA/lista2/zadanie1/obj/gnatprove/gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-14T10:45:50.707530'
+'2021-04-14T10:46:37.105015':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/ADA/lista2/zadanie1/obj/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    primes.adb:7:04: warning: initialization of "sqrN" has no effect[#0]
+
+    Summary logged in /home/pawel/Desktop/ADA/lista2/zadanie1/obj/gnatprove/gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-14T10:46:37.105015'
+'2021-04-14T10:46:52.711117':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/ADA/lista2/zadanie1/obj/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in /home/pawel/Desktop/ADA/lista2/zadanie1/obj/gnatprove/gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-14T10:46:52.711117'
+'2021-04-14T11:24:12.472703':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/ADA/lista2/zadanie1/obj/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in /home/pawel/Desktop/ADA/lista2/zadanie1/obj/gnatprove/gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-14T11:24:12.472703'

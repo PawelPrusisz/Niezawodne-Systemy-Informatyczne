@@ -1,0 +1,50 @@
+{
+  "spark": [
+    {
+      "name": "Max2",
+      "sloc": [
+        {
+          "file": "max2.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Max2.FindMax2",
+      "sloc": [
+        {
+          "file": "max2.ads",
+          "line": 4
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Max2.FindMax2",
+          "sloc": [
+            {
+              "file": "max2.ads",
+              "line": 4
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "globals/properties (advanced)": 1.67000005603768E-04,
+    "flow analysis": 2.03000009059906E-03,
+    "marking": 2.72000004770234E-04,
+    "globals (basic)": 1.67999998666346E-04
+  }
+}

@@ -1,0 +1,5 @@
+max2.adb:12:14: illegal character, replaced by "("
+max2.adb:14:21: illegal character, replaced by "("
+max2.adb:15:16: missing ";"
+max2.adb:18:42: binary operator expected
+max2.adb:27:15: missing ";"

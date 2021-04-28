@@ -1,0 +1,801 @@
+{
+  "spark": [
+    {
+      "name": "IsPrime",
+      "sloc": [
+        {
+          "file": "isprime.adb",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+  ],
+  "session_map": {
+    " 1": "/home/pawel/Desktop/ADA/lista2/obj/gnatprove/isprime"
+  },
+  "proof": [
+    {
+      "file": "isprime.adb",
+      "line": 15,
+      "col": 12,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "IsPrime",
+        "sloc": [
+          {
+            "file": "isprime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "isprime.adb",
+      "check_line": 15,
+      "check_col": 12,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 9.99999977648258E-03
+        }
+      }
+    },
+    {
+      "file": "isprime.adb",
+      "line": 19,
+      "col": 80,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "IsPrime",
+        "sloc": [
+          {
+            "file": "isprime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "isprime.adb",
+      "check_line": 19,
+      "check_col": 80,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 9.99999977648258E-03
+        }
+      }
+    },
+    {
+      "file": "isprime.adb",
+      "line": 19,
+      "col": 30,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "medium",
+      "entity": {
+        "name": "IsPrime",
+        "sloc": [
+          {
+            "file": "isprime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 885,
+              "time": 0
+            },
+            "CVC4_CE": {
+              "result": "Timeout",
+              "steps": 223990,
+              "time": 5
+            },
+            "Z3": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 5
+            },
+            "altergo": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 5
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "isprime.adb",
+      "check_line": 19,
+      "check_col": 30,
+      "cntexmp": {
+        "isprime.adb": {
+          "previous": {
+            "19": [
+              {
+                "name": "I",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "prime",
+                "value": "True",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "1": [
+              {
+                "name": "N",
+                "value": "7",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "I",
+                "value": "3",
+                "kind": "variable"
+              },
+              {
+                "name": "N",
+                "value": "7",
+                "kind": "variable"
+              }
+            ],
+            "15": [
+              {
+                "name": "I",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "16": [
+              {
+                "name": "prime",
+                "value": "False",
+                "kind": "variable"
+              }
+            ],
+            "18": [
+              {
+                "name": "N",
+                "value": "7",
+                "kind": "variable"
+              }
+            ],
+            "19": [
+              {
+                "name": "I",
+                "value": "3",
+                "kind": "variable"
+              },
+              {
+                "name": "N",
+                "value": "7",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 0,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "isprime.adb",
+      "line": 19,
+      "col": 30,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "medium",
+      "entity": {
+        "name": "IsPrime",
+        "sloc": [
+          {
+            "file": "isprime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 218,
+              "time": 0
+            },
+            "CVC4_CE": {
+              "result": "Unknown (unknown)",
+              "steps": 264,
+              "time": 0
+            },
+            "Z3": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 5
+            },
+            "altergo": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 5
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "isprime.adb",
+      "check_line": 19,
+      "check_col": 30,
+      "cntexmp": {
+        "isprime.adb": {
+          "previous": {
+          },
+          "current": {
+            "1": [
+              {
+                "name": "N",
+                "value": "4",
+                "kind": "variable"
+              }
+            ],
+            "10": [
+              {
+                "name": "prime",
+                "value": "True",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "I",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "N",
+                "value": "4",
+                "kind": "variable"
+              }
+            ],
+            "15": [
+              {
+                "name": "I",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "16": [
+              {
+                "name": "prime",
+                "value": "False",
+                "kind": "variable"
+              }
+            ],
+            "18": [
+              {
+                "name": "N",
+                "value": "4",
+                "kind": "variable"
+              }
+            ],
+            "19": [
+              {
+                "name": "I",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "N",
+                "value": "4",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 1,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "isprime.adb",
+      "line": 18,
+      "col": 74,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "IsPrime",
+        "sloc": [
+          {
+            "file": "isprime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "isprime.adb",
+      "check_line": 18,
+      "check_col": 74,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 9.99999977648258E-03
+        }
+      }
+    },
+    {
+      "file": "isprime.adb",
+      "line": 18,
+      "col": 30,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "IsPrime",
+        "sloc": [
+          {
+            "file": "isprime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "isprime.adb",
+      "check_line": 18,
+      "check_col": 30,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        },
+        "Trivial": {
+          "count": 1,
+          "max_steps": 0,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "isprime.adb",
+      "line": 18,
+      "col": 72,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "medium",
+      "entity": {
+        "name": "IsPrime",
+        "sloc": [
+          {
+            "file": "isprime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 1646,
+              "time": 0
+            },
+            "CVC4_CE": {
+              "result": "Timeout",
+              "steps": 198381,
+              "time": 5
+            },
+            "Z3": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 5
+            },
+            "altergo": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 5
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "isprime.adb",
+      "check_line": 18,
+      "check_col": 30,
+      "cntexmp": {
+        "isprime.adb": {
+          "previous": {
+            "19": [
+              {
+                "name": "I",
+                "value": "3",
+                "kind": "variable"
+              },
+              {
+                "name": "prime",
+                "value": "True",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "1": [
+              {
+                "name": "N",
+                "value": "7",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "I",
+                "value": "4",
+                "kind": "variable"
+              },
+              {
+                "name": "N",
+                "value": "7",
+                "kind": "variable"
+              }
+            ],
+            "15": [
+              {
+                "name": "I",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "18": [
+              {
+                "name": "K",
+                "value": "3",
+                "kind": "variable"
+              },
+              {
+                "name": "N",
+                "value": "7",
+                "kind": "variable"
+              }
+            ],
+            "19": [
+              {
+                "name": "N",
+                "value": "7",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 2,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "isprime.adb",
+      "line": 5,
+      "col": 44,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "IsPrime",
+        "sloc": [
+          {
+            "file": "isprime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "isprime.adb",
+      "check_line": 5,
+      "check_col": 44,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 9.99999977648258E-03
+        }
+      }
+    },
+    {
+      "file": "isprime.adb",
+      "line": 7,
+      "col": 49,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "IsPrime",
+        "sloc": [
+          {
+            "file": "isprime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "isprime.adb",
+      "check_line": 7,
+      "check_col": 49,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 9.99999977648258E-03
+        }
+      }
+    },
+    {
+      "file": "isprime.adb",
+      "line": 4,
+      "col": 11,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "IsPrime",
+        "sloc": [
+          {
+            "file": "isprime.adb",
+            "line": 1
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 164,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 587,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "isprime.adb",
+      "check_line": 4,
+      "check_col": 11,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "IsPrime",
+          "sloc": [
+            {
+              "file": "isprime.adb",
+              "line": 1
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "gnatwhy3.transformations.eliminate_algebraic": 3.36700002662838E-03,
+    "gnatwhy3.transformations.inline_trivial": 4.74310010671616E-01,
+    "codepeer results": 2.59999997069826E-05,
+    "init_why_sections": 4.86000004457310E-04,
+    "gnatwhy3.transformations.eliminate_let_term": 1.52000004891306E-03,
+    "gnatwhy3.transformations.detect_polymorphism": 1.29499996546656E-03,
+    "globals/properties (advanced)": 2.11000005947426E-04,
+    "gnatwhy3.transformations.eliminate_literal": 4.78899991139770E-03,
+    "gnatwhy3.run_vcs": 1.56875997781754E-01,
+    "gnatwhy3.transformations.eliminate_algebraic_if_poly": 2.23700003698468E-03,
+    "gnatwhy3.transformations.eliminate_definition_if_poly": 1.49299995973706E-03,
+    "flow analysis": 7.98999972175807E-04,
+    "gnatwhy3.transformations.simplify_formula": 6.28599990159273E-03,
+    "marking": 1.30000000353903E-04,
+    "translation of standard": 3.09600005857646E-03,
+    "gnatwhy3.transformations.eliminate_recursion": 8.60999978613108E-04,
+    "gnatwhy3.register_vcs": 1.04099996387959E-02,
+    "gnatwhy3.transformations.eliminate_epsilon": 4.04299981892109E-03,
+    "globals (basic)": 1.17000003228895E-04,
+    "gnatwhy3.schedule_vcs": 1.68900005519390E-03,
+    "gnatwhy3.transformations.prepare_for_counterexmp": 4.98999981209636E-03,
+    "gnatwhy3.save_session": 7.72200012579560E-03,
+    "gnatwhy3.transformations.eliminate_inductive": 2.54700006917119E-03,
+    "gnatwhy3.transformations.split_premise_right": 3.25799989514053E-03,
+    "gnatwhy3.transformations.encoding_smt_if_poly": 2.09999998332933E-05,
+    "gnatwhy3.transformations.eliminate_unused_hypo": 1.13701000809669E-01,
+    "gnatwhy3.transformations.eliminate_builtin": 3.90599993988872E-03,
+    "gnatwhy3.transformations.discriminate_if_poly": 5.09999990754295E-05,
+    "gnatwhy3.init": 2.47517004609108E-01,
+    "gnatwhy3.transformations.introduce_premises": 1.01899995934218E-03
+  }
+}

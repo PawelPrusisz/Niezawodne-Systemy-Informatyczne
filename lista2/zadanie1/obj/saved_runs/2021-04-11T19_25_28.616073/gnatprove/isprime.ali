@@ -1,0 +1,31 @@
+V "GNAT Lib v2020"
+A -x
+A ada
+A -gnatA
+A -gnatc
+P GP FX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U isprime%b		isprime.adb		b425909c OO SU
+
+D isprime.adb		20210411172428 b425909c isprime%b
+D system.ads		20200228061809 4635ec04 system%s
+G a Z
+X 1 isprime.adb
+1V10*IsPrime{boolean} 1b10 1>18 4r15 24l5 24t12
+1i18 N{positive} 3r10 5r33 5r42 7r38 7r47 14r18 15r10 18r72 19r78
+5i23 I{integer} 5r48
+7i28 I{integer} 7r53
+10b4 prime{boolean} 16m10 18r33 19r38 22r11
+14i8 I{integer} 15r16 18r63 19r69
+18i53 K{integer} 18r78
+19i59 K{integer} 19r84
+
+QQ SPARKVERSION SPARK Community 2020 (20200429)
+GG EK_DIRECT_CALLS isprime 0
+GG EK_GLOBALS isprime local FALSE E_FUNCTION FALSE ORIGIN_FLOW 0 proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_FLOW_SCOPE isprime FALSE FALSE FALSE FALSE FALSE __standard
+GG EK_END_MARKER

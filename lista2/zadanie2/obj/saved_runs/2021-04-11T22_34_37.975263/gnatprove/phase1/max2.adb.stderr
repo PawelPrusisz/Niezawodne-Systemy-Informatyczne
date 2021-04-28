@@ -1,0 +1,2 @@
+max2.adb:16:20: "=" should be ":="
+max2.adb:32:06: missing "end if;" for "if" at line 12

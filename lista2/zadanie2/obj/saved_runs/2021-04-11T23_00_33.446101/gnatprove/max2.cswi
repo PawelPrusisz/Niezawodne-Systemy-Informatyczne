@@ -1,0 +1,7 @@
+20210411210033
+-c
+-x
+ada
+-gnatA
+-gnatc
+-gnates=/home/pawel/Desktop/ADA/lista2/zadanie2/obj/gnatprove/da1b4bae.tmp

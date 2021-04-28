@@ -1,0 +1,2 @@
+horner.adb:2:04: declaration expected
+horner.adb:4:04: declarations must come before "begin"

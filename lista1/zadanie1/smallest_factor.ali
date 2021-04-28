@@ -1,0 +1,25 @@
+V "GNAT Lib v2020"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U smallest_factor%b	smallest_factor.adb	ce423401 NE OO SU IL
+
+D smallest_factor.adb	20210324095049 ce423401 smallest_factor%b
+D system.ads		20200228061809 4635ec04 system%s
+G a e
+G c Z b b [smallest_factor standard 1 11 none]
+X 1 smallest_factor.adb
+1U11*smallest_factor 1b11 1=28 1<48 21l5 21t20
+1i28 N{positive} 3r10 5r4 5r21 6r4 7r37 12r58 13r41 16r14 17r10 19m4 19r9
+1i48 Factor{positive} 4r12 5r12 6r14 7r22 11m7 13r31 14r31 19r13
+7i12 J{integer} 7r47
+10i8 I{integer} 11r17 12r49 14r40 16r10 17r16
+12i39 J{integer} 12r64
+

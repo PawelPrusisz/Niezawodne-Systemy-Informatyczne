@@ -1,0 +1,2 @@
+max2.adb:23:47: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove V(J) <= V(I) (e.g. when I = 0 and J = 1 and V = (0 => 1, others => 2) and V'First = 0 and V'Last = 1) [possible explanation: precondition of subprogram at max2.ads:4 should mention V][#0]
+max2.ads:7:14: medium: postcondition might fail, cannot prove FindMax2'Result >= 0 (e.g. when FindMax2'Result = -1)[#1]

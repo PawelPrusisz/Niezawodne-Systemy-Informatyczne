@@ -1,0 +1,12 @@
+main.adb:5:20: expected type "Standard.Integer"
+main.adb:5:20: found type "Standard.String"
+main.adb:9:04: no candidate interpretations match the actuals:
+main.adb:9:04: too many arguments in call to "Put_Line"
+main.adb:9:30: expected type "Standard.String"
+main.adb:9:30: found type "Standard.Integer"
+main.adb:9:30:   ==> in call to "Put_Line" at a-textio.ads:498
+main.adb:10:04: no candidate interpretations match the actuals:
+main.adb:10:04: too many arguments in call to "Put_Line"
+main.adb:10:30: expected type "Standard.String"
+main.adb:10:30: found type "Standard.Integer"
+main.adb:10:30:   ==> in call to "Put_Line" at a-textio.ads:498

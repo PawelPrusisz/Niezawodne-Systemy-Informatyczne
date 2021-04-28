@@ -1,0 +1,4 @@
+smallest_factor.adb:12:31: warning: "Factor" may be referenced before it has a value
+smallest_factor.adb:12:31: medium: "Factor" might not be initialized[#0]
+smallest_factor.adb:12:31: medium: loop invariant might fail in first iteration, cannot prove Factor = I - 1 (e.g. when Factor = 2 and I = 2)[#1]
+smallest_factor.adb:18:11: medium: range check might fail (e.g. when Factor = Positive'Last and N = 2)[#2]

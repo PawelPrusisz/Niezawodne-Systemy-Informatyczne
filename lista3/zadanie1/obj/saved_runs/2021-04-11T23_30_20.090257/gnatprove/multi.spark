@@ -1,0 +1,790 @@
+{
+  "spark": [
+    {
+      "name": "Multi",
+      "sloc": [
+        {
+          "file": "multi.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Multi.Mult",
+      "sloc": [
+        {
+          "file": "multi.ads",
+          "line": 3
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+  ],
+  "session_map": {
+    " 1": "/home/pawel/Desktop/ADA/lista3/zadanie1/obj/gnatprove/multi__mult"
+  },
+  "proof": [
+    {
+      "file": "multi.adb",
+      "line": 10,
+      "col": 21,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 10,
+      "check_col": 21,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 9.99999977648258E-03
+        }
+      }
+    },
+    {
+      "file": "multi.adb",
+      "line": 11,
+      "col": 21,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 11,
+      "check_col": 21,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 9.99999977648258E-03
+        }
+      }
+    },
+    {
+      "file": "multi.adb",
+      "line": 14,
+      "col": 22,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 129,
+              "time": 2.00000000000000E-02
+            },
+            "CVC4_CE": {
+              "result": "Unknown (unknown)",
+              "steps": 125,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 14,
+      "check_col": 22,
+      "cntexmp": {
+        "multi.adb": {
+          "previous": {
+          },
+          "current": {
+            "5": [
+              {
+                "name": "AB",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "6": [
+              {
+                "name": "A",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "AA",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "7": [
+              {
+                "name": "B",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "10": [
+              {
+                "name": "AA",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "11": [
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "12": [
+              {
+                "name": "AA",
+                "value": "Natural'Last",
+                "kind": "variable"
+              },
+              {
+                "name": "AB",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "13": [
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "AA",
+                "value": "Natural'Last",
+                "kind": "variable"
+              },
+              {
+                "name": "AB",
+                "value": "1",
+                "kind": "variable"
+              }
+            ]
+          }
+        },
+        "multi.ads": {
+          "previous": {
+          },
+          "current": {
+            "3": [
+              {
+                "name": "A",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "B",
+                "value": "1",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 0,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "multi.adb",
+      "line": 13,
+      "col": 17,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 13,
+      "check_col": 17,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "multi.adb",
+      "line": 16,
+      "col": 18,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 127,
+              "time": 1.00000000000000E-02
+            },
+            "CVC4_CE": {
+              "result": "Unknown (unknown)",
+              "steps": 137,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 16,
+      "check_col": 18,
+      "cntexmp": {
+        "multi.adb": {
+          "previous": {
+          },
+          "current": {
+            "5": [
+              {
+                "name": "AB",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "6": [
+              {
+                "name": "A",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "AA",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "7": [
+              {
+                "name": "B",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "10": [
+              {
+                "name": "AA",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "11": [
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "12": [
+              {
+                "name": "AA",
+                "value": "1073741824",
+                "kind": "variable"
+              },
+              {
+                "name": "AB",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "13": [
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "AA",
+                "value": "1073741824",
+                "kind": "variable"
+              },
+              {
+                "name": "AB",
+                "value": "1073741824",
+                "kind": "variable"
+              }
+            ],
+            "16": [
+              {
+                "name": "AA",
+                "value": "1073741824",
+                "kind": "variable"
+              }
+            ]
+          }
+        },
+        "multi.ads": {
+          "previous": {
+          },
+          "current": {
+            "3": [
+              {
+                "name": "A",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "B",
+                "value": "1",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 1,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "multi.adb",
+      "line": 17,
+      "col": 19,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "multi.adb",
+      "check_line": 17,
+      "check_col": 19,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "multi.ads",
+      "line": 6,
+      "col": 32,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 431,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "multi.ads",
+      "check_line": 6,
+      "check_col": 32,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "multi.ads",
+      "line": 6,
+      "col": 16,
+      "rule": "VC_POSTCONDITION",
+      "severity": "medium",
+      "entity": {
+        "name": "Multi.Mult",
+        "sloc": [
+          {
+            "file": "multi.ads",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 245,
+              "time": 2.00000000000000E-02
+            },
+            "CVC4_CE": {
+              "result": "Unknown (unknown)",
+              "steps": 367,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "multi.ads",
+      "check_line": 6,
+      "check_col": 16,
+      "cntexmp": {
+        "multi.adb": {
+          "previous": {
+          },
+          "current": {
+            "5": [
+              {
+                "name": "AB",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "6": [
+              {
+                "name": "A",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "AA",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "7": [
+              {
+                "name": "B",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "10": [
+              {
+                "name": "AA",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "11": [
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "12": [
+              {
+                "name": "AA",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "AB",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "B1",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "13": [
+              {
+                "name": "B1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "AA",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "AB",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "16": [
+              {
+                "name": "AA",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "17": [
+              {
+                "name": "B1",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "20": [
+              {
+                "name": "AB",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "Mult'Result",
+                "value": "0",
+                "kind": "variable"
+              }
+            ]
+          }
+        },
+        "multi.ads": {
+          "previous": {
+          },
+          "current": {
+            "3": [
+              {
+                "name": "A",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "B",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "6": [
+              {
+                "name": "A",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "B",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "Mult'Result",
+                "value": "0",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 2,
+      "session_dir": 1,
+      "how_proved": "prover"
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Multi",
+          "sloc": [
+            {
+              "file": "multi.ads",
+              "line": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Multi.Mult",
+          "sloc": [
+            {
+              "file": "multi.ads",
+              "line": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "gnatwhy3.transformations.inline_trivial": 1.35575994849205E-01,
+    "codepeer results": 2.59999997069826E-05,
+    "init_why_sections": 4.82000003103167E-04,
+    "gnatwhy3.transformations.detect_polymorphism": 1.33200001437217E-03,
+    "globals/properties (advanced)": 1.76000001374632E-04,
+    "gnatwhy3.transformations.eliminate_literal": 1.91800005268306E-03,
+    "gnatwhy3.run_vcs": 7.98209980130196E-02,
+    "gnatwhy3.transformations.eliminate_algebraic_if_poly": 2.01900000683963E-03,
+    "gnatwhy3.transformations.eliminate_definition_if_poly": 9.13999974727631E-04,
+    "flow analysis": 1.17800000589341E-03,
+    "gnatwhy3.transformations.simplify_formula": 2.11600004695356E-03,
+    "marking": 1.18000003567431E-04,
+    "translation of standard": 4.06900001689792E-03,
+    "gnatwhy3.register_vcs": 4.03399998322129E-03,
+    "gnatwhy3.transformations.eliminate_epsilon": 1.40399998053908E-03,
+    "globals (basic)": 4.13900008425117E-03,
+    "gnatwhy3.schedule_vcs": 1.65800005197525E-03,
+    "gnatwhy3.transformations.prepare_for_counterexmp": 5.50499977543950E-03,
+    "gnatwhy3.save_session": 2.73699988611042E-03,
+    "gnatwhy3.transformations.eliminate_inductive": 9.08999994862825E-04,
+    "gnatwhy3.transformations.encoding_smt_if_poly": 1.29999998534913E-05,
+    "gnatwhy3.transformations.eliminate_unused_hypo": 1.30589995533228E-02,
+    "gnatwhy3.transformations.eliminate_builtin": 1.35999999474734E-03,
+    "gnatwhy3.transformations.discriminate_if_poly": 3.19999999192078E-05,
+    "gnatwhy3.init": 2.30394005775452E-01
+  }
+}

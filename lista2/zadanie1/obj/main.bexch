@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/pawel/Desktop/ADA/lista2/zadanie1/default.gpr
+20210411164837 4088c206a68dc388b4151ce08db6b677
+[BOUND OBJECT FILES]
+/home/pawel/Desktop/ADA/lista2/zadanie1/obj/primes.o
+/home/pawel/Desktop/ADA/lista2/zadanie1/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/pawel/Desktop/ADA/lista2/zadanie1/obj/
+-L/home/pawel/Desktop/ADA/lista2/zadanie1/obj/
+-L/home/pawel/opt/GNAT/2020/lib/gcc/x86_64-pc-linux-gnu/9.3.1/adalib/
+-static
+-static-libgcc
+/home/pawel/opt/GNAT/2020/lib/gcc/x86_64-pc-linux-gnu/9.3.1/adalib/libgnat.a
+-ldl

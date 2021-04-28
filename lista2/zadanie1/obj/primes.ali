@@ -1,0 +1,31 @@
+V "GNAT Lib v2020"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U primes%b		primes.adb		4c2f26f8 NE OO PK
+
+U primes%s		primes.ads		f7eb82d9 EE NE OO PK
+
+D primes.ads		20210411175400 f7eb82d9 primes%s
+D primes.adb		20210411175552 bbc4a421 primes%b
+D system.ads		20200228061809 4635ec04 system%s
+G a e
+G c Z s b [isprime primes 3 13 none]
+X 1 primes.ads
+1K9*Primes 11l5 11e11 2|1b14 22l5 22t11
+3V13*IsPrime{boolean} 3>22 6r18 2|2b13 21l8 21t15
+3i22 N{positive} 5r13 7r33 7r42 9r38 9r47 2|2b21 10r18 11r10 15r68 16r74
+7i23 I{integer} 7r48
+9i28 I{integer} 9r53
+X 2 primes.adb
+6b4 prime{boolean} 12m13 15r33 16r38 19r11
+10i8 I{integer} 11r16 15r63 16r69
+15i53 K{integer} 15r74
+16i59 K{integer} 16r80
+

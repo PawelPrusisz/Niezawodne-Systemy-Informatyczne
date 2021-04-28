@@ -1,0 +1,1 @@
+max2.adb:22:49: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove mx1 > mx2 (e.g. when mx1 = 2 and mx2 = 2)[#0]

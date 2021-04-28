@@ -1,0 +1,1 @@
+main.adb:9:11: missing argument for parameter "V" in call to "Findmax2" declared at max2.ads:4

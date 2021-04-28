@@ -1,0 +1,45 @@
+V "GNAT Lib v2020"
+A -x
+A ada
+A -gnatA
+A -gnatc
+P GP FX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U horner%b		horner.adb		6faa9c36 OO SU
+W poly%s		poly.ads		poly.ali
+
+D horner.adb		20210321202948 5898f5af horner%b
+D poly.ads		20210321192742 37326999 poly%s
+D system.ads		20200228061809 4635ec04 system%s
+G a Z
+X 1 horner.adb
+3V11*Horner{integer} 3b11 3>19 3>32 39l5 39t11
+3i19 X{integer} 6r4 7r4 20r7 25r19 32r20 33r23
+3a32 A{2|3A9} 4r11 5r4 8r17 8r28 8r38 9r17 9r28 9r38 21r16 21r27 22r17 29r13
+. 29r24 32r24 33r16
+8i12 J{integer} 8r40
+9i12 J{integer} 9r40
+13i4 Ans{integer} 26r19 28r23 31r31 32m7 32r14 37r23 38r11
+14i4 Z{integer} 27r19 28r19 31r37 33m7 33r12 37r19
+15i4 AnsB{integer}
+16i4 ZB{integer}
+21i11 i{integer} 22r19
+29i8 I{integer} 32r26 33r18 33r26
+X 2 poly.ads
+1K9*Poly 1|1w6 2r5 2|7e9
+3A9*Vector(integer)<integer> 1|3r36
+
+QQ SPARKVERSION SPARK Community 2020 (20200429)
+GG EK_DIRECT_CALLS horner 0
+GG EK_GLOBALS horner local FALSE E_FUNCTION FALSE ORIGIN_FLOW 0 proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_FLOW_SCOPE poly__horner FALSE FALSE FALSE FALSE TRUE poly VISIBLE_PART
+GG EK_FLOW_SCOPE horner FALSE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE poly TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_END_MARKER

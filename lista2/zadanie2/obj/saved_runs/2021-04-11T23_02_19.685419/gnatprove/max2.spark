@@ -1,0 +1,2973 @@
+{
+  "spark": [
+    {
+      "name": "Max2",
+      "sloc": [
+        {
+          "file": "max2.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Max2.FindMax2",
+      "sloc": [
+        {
+          "file": "max2.ads",
+          "line": 4
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+  ],
+  "session_map": {
+    " 1": "/home/pawel/Desktop/ADA/lista2/zadanie2/obj/gnatprove/max2__findmax2"
+  },
+  "proof": [
+    {
+      "file": "max2.adb",
+      "line": 29,
+      "col": 86,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 29,
+      "check_col": 86,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.adb",
+      "line": 29,
+      "col": 68,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 29,
+      "check_col": 68,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.adb",
+      "line": 29,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 6672,
+              "time": 1.40000000000000E-01
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 29,
+      "check_col": 32,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.40000000596046E-01
+        },
+        "Trivial": {
+          "count": 1,
+          "max_steps": 0,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.adb",
+      "line": 29,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 50,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 29,
+      "check_col": 32,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        },
+        "Trivial": {
+          "count": 1,
+          "max_steps": 0,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.adb",
+      "line": 28,
+      "col": 115,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 28,
+      "check_col": 115,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.adb",
+      "line": 28,
+      "col": 123,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 28,
+      "check_col": 123,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.adb",
+      "line": 28,
+      "col": 68,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 28,
+      "check_col": 68,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.adb",
+      "line": 28,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 23,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 28,
+      "check_col": 32,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        },
+        "Trivial": {
+          "count": 1,
+          "max_steps": 0,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.adb",
+      "line": 28,
+      "col": 113,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "medium",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 86003,
+              "time": 1.11000000000000E+00
+            },
+            "CVC4_CE": {
+              "result": "Unknown (unknown)",
+              "steps": 1429,
+              "time": 5.00000000000000E-02
+            },
+            "Z3": {
+              "result": "Unknown (unknown)",
+              "steps": 131133,
+              "time": 5.00000000000000E-02
+            },
+            "altergo": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 5
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 28,
+      "check_col": 32,
+      "cntexmp": {
+        "max2.adb": {
+          "previous": {
+            "29": [
+              {
+                "name": "K",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "mx1",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "mx2",
+                "value": "2",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "11": [
+              {
+                "name": "K",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "V",
+                "value": "(0 => 2, 1 => 1, others => 3)",
+                "kind": "variable"
+              }
+            ],
+            "12": [
+              {
+                "name": "K",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "13": [
+              {
+                "name": "mx1",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "mx2",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "K",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "mx1",
+                "value": "3",
+                "kind": "variable"
+              }
+            ],
+            "24": [
+              {
+                "name": "mx2",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "25": [
+              {
+                "name": "mx2",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "26": [
+              {
+                "name": "mx1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "27": [
+              {
+                "name": "mx1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "28": [
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "J",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "V",
+                "value": "(0 => 2, 1 => 1, others => 3)",
+                "kind": "variable"
+              },
+              {
+                "name": "V'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "V'Last",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "29": [
+              {
+                "name": "mx2",
+                "value": "2",
+                "kind": "variable"
+              }
+            ]
+          }
+        },
+        "max2.ads": {
+          "previous": {
+          },
+          "current": {
+            "4": [
+              {
+                "name": "V",
+                "value": "(0 => 2, 1 => 1, others => 3)",
+                "kind": "variable"
+              },
+              {
+                "name": "V'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "V'Last",
+                "value": "2",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 0,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "max2.adb",
+      "line": 27,
+      "col": 82,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 27,
+      "check_col": 82,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.adb",
+      "line": 27,
+      "col": 80,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "medium",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 2239,
+              "time": 5.00000000000000E-02
+            },
+            "CVC4_CE": {
+              "result": "Unknown (unknown)",
+              "steps": 1259,
+              "time": 0
+            },
+            "Z3": {
+              "result": "Unknown (unknown)",
+              "steps": 65304,
+              "time": 0
+            },
+            "altergo": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 5
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 27,
+      "check_col": 32,
+      "cntexmp": {
+        "max2.adb": {
+          "previous": {
+            "29": [
+              {
+                "name": "K",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "mx1",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "mx2",
+                "value": "2",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "11": [
+              {
+                "name": "K",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "V",
+                "value": "(-1 => 4, 0 => 2, 1 => 1, others => 3)",
+                "kind": "variable"
+              }
+            ],
+            "12": [
+              {
+                "name": "K",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "13": [
+              {
+                "name": "mx1",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "mx2",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "K",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "mx1",
+                "value": "3",
+                "kind": "variable"
+              }
+            ],
+            "24": [
+              {
+                "name": "mx2",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "25": [
+              {
+                "name": "mx2",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "26": [
+              {
+                "name": "mx1",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "27": [
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "V",
+                "value": "(-1 => 4, 0 => 2, 1 => 1, others => 3)",
+                "kind": "variable"
+              },
+              {
+                "name": "V'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "V'Last",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "mx1",
+                "value": "3",
+                "kind": "variable"
+              }
+            ],
+            "28": [
+              {
+                "name": "V",
+                "value": "(-1 => 4, 0 => 2, 1 => 1, others => 3)",
+                "kind": "variable"
+              }
+            ],
+            "29": [
+              {
+                "name": "mx2",
+                "value": "2",
+                "kind": "variable"
+              }
+            ]
+          }
+        },
+        "max2.ads": {
+          "previous": {
+          },
+          "current": {
+            "4": [
+              {
+                "name": "V",
+                "value": "(-1 => 4, 0 => 2, 1 => 1, others => 3)",
+                "kind": "variable"
+              },
+              {
+                "name": "V'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "V'Last",
+                "value": "2",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 1,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "max2.adb",
+      "line": 27,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 110,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 27,
+      "check_col": 32,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        },
+        "Trivial": {
+          "count": 1,
+          "max_steps": 0,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.adb",
+      "line": 26,
+      "col": 115,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 26,
+      "check_col": 115,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.adb",
+      "line": 26,
+      "col": 68,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 26,
+      "check_col": 68,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.adb",
+      "line": 26,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 44,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 26,
+      "check_col": 32,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        },
+        "Trivial": {
+          "count": 1,
+          "max_steps": 0,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.adb",
+      "line": 26,
+      "col": 113,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "medium",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 18379,
+              "time": 2.20000000000000E-01
+            },
+            "CVC4_CE": {
+              "result": "Unknown (unknown)",
+              "steps": 1224,
+              "time": 4.00000000000000E-02
+            },
+            "Z3": {
+              "result": "Unknown (unknown)",
+              "steps": 114998,
+              "time": 4.00000000000000E-02
+            },
+            "altergo": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 5
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 26,
+      "check_col": 32,
+      "cntexmp": {
+        "max2.adb": {
+          "previous": {
+            "29": [
+              {
+                "name": "K",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "mx1",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "mx2",
+                "value": "2",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "11": [
+              {
+                "name": "K",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "V",
+                "value": "(1 => 1, 2 => 1, others => 2)",
+                "kind": "variable"
+              }
+            ],
+            "12": [
+              {
+                "name": "K",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "13": [
+              {
+                "name": "mx1",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "mx2",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "K",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "mx1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "24": [
+              {
+                "name": "mx2",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "25": [
+              {
+                "name": "mx2",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "26": [
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "J",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "V",
+                "value": "(1 => 1, 2 => 1, others => 2)",
+                "kind": "variable"
+              },
+              {
+                "name": "V'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "V'Last",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "mx1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "27": [
+              {
+                "name": "mx1",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "28": [
+              {
+                "name": "V",
+                "value": "(1 => 1, 2 => 1, others => 2)",
+                "kind": "variable"
+              }
+            ],
+            "29": [
+              {
+                "name": "mx2",
+                "value": "2",
+                "kind": "variable"
+              }
+            ]
+          }
+        },
+        "max2.ads": {
+          "previous": {
+          },
+          "current": {
+            "4": [
+              {
+                "name": "V",
+                "value": "(1 => 1, 2 => 1, others => 2)",
+                "kind": "variable"
+              },
+              {
+                "name": "V'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "V'Last",
+                "value": "2",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 2,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "max2.adb",
+      "line": 25,
+      "col": 97,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 25,
+      "check_col": 97,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.adb",
+      "line": 25,
+      "col": 104,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 25,
+      "check_col": 104,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.adb",
+      "line": 25,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 13,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 25,
+      "check_col": 32,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        },
+        "Trivial": {
+          "count": 1,
+          "max_steps": 0,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.adb",
+      "line": 25,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 526,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 25,
+      "check_col": 32,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        },
+        "Trivial": {
+          "count": 1,
+          "max_steps": 0,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.adb",
+      "line": 24,
+      "col": 82,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 13,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 24,
+      "check_col": 82,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.adb",
+      "line": 24,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 13,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 24,
+      "check_col": 32,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        },
+        "Trivial": {
+          "count": 1,
+          "max_steps": 0,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.adb",
+      "line": 24,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "medium",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 761,
+              "time": 3.00000000000000E-02
+            },
+            "CVC4_CE": {
+              "result": "Unknown (unknown)",
+              "steps": 656,
+              "time": 3.00000000000000E-02
+            },
+            "Z3": {
+              "result": "Unknown (unknown)",
+              "steps": 57084,
+              "time": 3.00000000000000E-02
+            },
+            "altergo": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 5
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.adb",
+      "check_line": 24,
+      "check_col": 32,
+      "cntexmp": {
+        "max2.adb": {
+          "previous": {
+            "29": [
+              {
+                "name": "K",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "mx1",
+                "value": "-1",
+                "kind": "variable"
+              },
+              {
+                "name": "mx2",
+                "value": "2",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "11": [
+              {
+                "name": "K",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "V",
+                "value": "(0 => 2, others => 1)",
+                "kind": "variable"
+              }
+            ],
+            "12": [
+              {
+                "name": "K",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "13": [
+              {
+                "name": "mx1",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "mx2",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "K",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "mx1",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "24": [
+              {
+                "name": "K",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "V",
+                "value": "(0 => 2, others => 1)",
+                "kind": "variable"
+              },
+              {
+                "name": "V'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "V'Last",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "mx2",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "25": [
+              {
+                "name": "mx2",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "26": [
+              {
+                "name": "mx1",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "27": [
+              {
+                "name": "mx1",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "28": [
+              {
+                "name": "V",
+                "value": "(0 => 2, others => 1)",
+                "kind": "variable"
+              }
+            ],
+            "29": [
+              {
+                "name": "mx2",
+                "value": "2",
+                "kind": "variable"
+              }
+            ]
+          }
+        },
+        "max2.ads": {
+          "previous": {
+          },
+          "current": {
+            "4": [
+              {
+                "name": "V",
+                "value": "(0 => 2, others => 1)",
+                "kind": "variable"
+              },
+              {
+                "name": "V'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "V'Last",
+                "value": "2",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 3,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "max2.ads",
+      "line": 9,
+      "col": 55,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.ads",
+      "check_line": 9,
+      "check_col": 55,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.ads",
+      "line": 11,
+      "col": 40,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.ads",
+      "check_line": 11,
+      "check_col": 40,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.ads",
+      "line": 15,
+      "col": 43,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.ads",
+      "check_line": 15,
+      "check_col": 43,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.ads",
+      "line": 15,
+      "col": 50,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.ads",
+      "check_line": 15,
+      "check_col": 50,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.ads",
+      "line": 19,
+      "col": 44,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.ads",
+      "check_line": 19,
+      "check_col": 44,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.ads",
+      "line": 19,
+      "col": 52,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.ads",
+      "check_line": 19,
+      "check_col": 52,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.ads",
+      "line": 18,
+      "col": 20,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.ads",
+      "check_line": 18,
+      "check_col": 20,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "max2.ads",
+      "line": 7,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "medium",
+      "entity": {
+        "name": "Max2.FindMax2",
+        "sloc": [
+          {
+            "file": "max2.ads",
+            "line": 4
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 527,
+              "time": 3.00000000000000E-02
+            },
+            "CVC4_CE": {
+              "result": "Unknown (unknown)",
+              "steps": 1000,
+              "time": 0
+            },
+            "Z3": {
+              "result": "Unknown (unknown)",
+              "steps": 49767,
+              "time": 0
+            },
+            "altergo": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 5
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 150,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 131,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "max2.ads",
+      "check_line": 7,
+      "check_col": 14,
+      "cntexmp": {
+        "max2.adb": {
+          "previous": {
+            "29": [
+              {
+                "name": "K",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "mx1",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "mx2",
+                "value": "2",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "11": [
+              {
+                "name": "K",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "V",
+                "value": "(1 => 1, others => 2)",
+                "kind": "variable"
+              }
+            ],
+            "12": [
+              {
+                "name": "mx1",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "13": [
+              {
+                "name": "mx1",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "mx2",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "K",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "mx1",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "24": [
+              {
+                "name": "mx2",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "25": [
+              {
+                "name": "mx2",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "26": [
+              {
+                "name": "mx1",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "27": [
+              {
+                "name": "mx1",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "28": [
+              {
+                "name": "V",
+                "value": "(1 => 1, others => 2)",
+                "kind": "variable"
+              }
+            ],
+            "29": [
+              {
+                "name": "mx2",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "35": [
+              {
+                "name": "FindMax2'Result",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "mx2",
+                "value": "2",
+                "kind": "variable"
+              }
+            ]
+          }
+        },
+        "max2.ads": {
+          "previous": {
+          },
+          "current": {
+            "4": [
+              {
+                "name": "V",
+                "value": "(1 => 1, others => 2)",
+                "kind": "variable"
+              },
+              {
+                "name": "V'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "V'Last",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "7": [
+              {
+                "name": "FindMax2'Result",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "V",
+                "value": "(1 => 1, others => 2)",
+                "kind": "variable"
+              },
+              {
+                "name": "V'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "V'Last",
+                "value": "1",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 4,
+      "session_dir": 1,
+      "how_proved": "prover"
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Max2",
+          "sloc": [
+            {
+              "file": "max2.ads",
+              "line": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Max2.FindMax2",
+          "sloc": [
+            {
+              "file": "max2.ads",
+              "line": 4
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "gnatwhy3.transformations.eliminate_algebraic": 6.26200018450618E-03,
+    "gnatwhy3.transformations.inline_trivial": 1.35937201976776E+00,
+    "codepeer results": 3.70000016118865E-05,
+    "init_why_sections": 4.26000013248995E-04,
+    "gnatwhy3.transformations.eliminate_let_term": 2.54000001586974E-03,
+    "gnatwhy3.transformations.detect_polymorphism": 1.31050003692508E-02,
+    "globals/properties (advanced)": 1.63999997312203E-04,
+    "gnatwhy3.transformations.eliminate_literal": 2.34680008143187E-02,
+    "gnatwhy3.run_vcs": 6.35989978909492E-02,
+    "gnatwhy3.transformations.eliminate_algebraic_if_poly": 1.88710000365973E-02,
+    "gnatwhy3.transformations.eliminate_definition_if_poly": 1.19169997051358E-02,
+    "flow analysis": 1.77600001916289E-03,
+    "gnatwhy3.transformations.simplify_formula": 3.09430006891489E-02,
+    "marking": 2.65000009676442E-04,
+    "translation of standard": 3.12900007702410E-03,
+    "gnatwhy3.transformations.eliminate_recursion": 8.92999989446253E-04,
+    "gnatwhy3.register_vcs": 5.78999985009432E-03,
+    "gnatwhy3.transformations.eliminate_epsilon": 2.17809993773699E-02,
+    "globals (basic)": 1.55999994603917E-04,
+    "gnatwhy3.schedule_vcs": 2.27300007827580E-03,
+    "gnatwhy3.transformations.prepare_for_counterexmp": 1.49079998955131E-02,
+    "gnatwhy3.save_session": 4.37150001525879E-02,
+    "gnatwhy3.transformations.eliminate_inductive": 1.22210001572967E-02,
+    "gnatwhy3.transformations.split_premise_right": 7.02700018882751E-03,
+    "gnatwhy3.transformations.encoding_smt_if_poly": 7.50000035623088E-05,
+    "gnatwhy3.transformations.eliminate_unused_hypo": 5.62956988811493E-01,
+    "gnatwhy3.transformations.eliminate_builtin": 1.52179999276996E-02,
+    "gnatwhy3.transformations.discriminate_if_poly": 1.88999998499639E-04,
+    "gnatwhy3.init": 4.84378993511200E-01,
+    "gnatwhy3.transformations.introduce_premises": 4.12499997764826E-03
+  }
+}

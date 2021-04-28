@@ -1,0 +1,2 @@
+horner.adb:1:36: "Vector" is undefined
+horner.adb:14:04: procedure cannot return value (use function)

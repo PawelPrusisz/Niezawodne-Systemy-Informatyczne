@@ -1,0 +1,2 @@
+max2.adb:23:34: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove V(I) = mx1 (e.g. when I = 0 and V = (1 => 2, others => 3) and V'First = 0 and V'Last = 1 and mx1 = 2)[#0]
+max2.ads:8:06: medium: postcondition might fail, cannot prove FindMax2'Result = 0 or (for some I in V'Range => FindMax2'Result = V(I)) (e.g. when FindMax2'Result = 2 and V = (0 => 3, others => 1) and V'First = -1 and V'Last = 0)[#1]

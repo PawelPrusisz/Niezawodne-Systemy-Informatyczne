@@ -1,0 +1,8 @@
+horner.adb:6:11: medium: overflow check might fail (e.g. when A = (others => 1) and A'First = 1 and A'Last = -2147483648)[#7]
+horner.adb:20:31: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove Ans = Z (e.g. when Ans = -1 and Z = 0)[#5]
+horner.adb:21:18: medium: overflow check might fail (e.g. when Ans = 2 and X = -2)[#0]
+horner.adb:21:22: medium: overflow check might fail (e.g. when A = (others => Integer'First) and A'First = 0 and A'Last = 1 and Ans = 1 and I = 0 and X = -1)[#1]
+horner.adb:22:14: medium: overflow check might fail (e.g. when A = (others => 1) and A'First = 0 and A'Last = 1 and I = 0 and X = 0 and Z = Integer'First)[#4]
+horner.adb:22:21: medium: overflow check might fail (e.g. when A = (others => 2) and A'First = 0 and A'Last = 1 and I = 0 and X = 0)[#3]
+horner.adb:22:24: medium: overflow check might fail (e.g. when I = 0 and X = 0)[#2]
+horner.adb:26:19: medium: assertion might fail, cannot prove Z = Ans (e.g. when Ans = -1 and Z = 0)[#6]

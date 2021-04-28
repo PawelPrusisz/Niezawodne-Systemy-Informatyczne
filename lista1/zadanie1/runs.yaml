@@ -1,0 +1,430 @@
+'2021-03-21T16:28:59.917517':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    smallest_factor.adb:18:13: "I" is undefined
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-21T16:28:59.917517'
+'2021-03-21T16:32:24.586973':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    smallest_factor.adb:13:07: "F" is undefined
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-21T16:32:24.586973'
+'2021-03-21T16:32:38.770184':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    smallest_factor.adb:4:11: medium: postcondition might fail, cannot prove Factor
+    > 1 [possible explanation: loop invariant at line 11 should mention Factor][#1]
+
+    smallest_factor.adb:17:11: medium: range check might fail (e.g. when Factor =
+    Positive''Last and N = 2) [possible explanation: loop invariant at line 11 should
+    mention Factor][#0]
+
+    Summary logged in /home/pawel/Desktop/niezawodne/lista1/gnatprove/gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-21T16:32:38.770184'
+'2021-03-21T16:33:24.347789':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    smallest_factor.adb:17:11: medium: range check might fail (e.g. when Factor =
+    Positive''Last and N = 2) [possible explanation: loop invariant at line 11 should
+    mention Factor][#0]
+
+    Summary logged in /home/pawel/Desktop/niezawodne/lista1/gnatprove/gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-21T16:33:24.347789'
+'2021-03-21T16:34:47.031976':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    smallest_factor.adb:12:31: warning: "Factor" may be referenced before it has a
+    value
+
+    smallest_factor.adb:12:31: medium: "Factor" might not be initialized[#0]
+
+    smallest_factor.adb:12:31: medium: loop invariant might fail in first iteration,
+    cannot prove Factor = I - 1 (e.g. when Factor = 2 and I = 2)[#1]
+
+    smallest_factor.adb:18:11: medium: range check might fail (e.g. when Factor =
+    Positive''Last and N = 2)[#2]
+
+    Summary logged in /home/pawel/Desktop/niezawodne/lista1/gnatprove/gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-21T16:34:47.031976'
+'2021-03-21T16:35:14.588773':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    smallest_factor.adb:13:07: pragma "loop_invariant" must appear next to pragma
+    at line 11
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-21T16:35:14.588773'
+'2021-03-21T16:35:41.612603':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    smallest_factor.adb:18:11: medium: range check might fail (e.g. when Factor =
+    Positive''Last and N = 2)[#0]
+
+    Summary logged in /home/pawel/Desktop/niezawodne/lista1/gnatprove/gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-21T16:35:41.612603'
+'2021-03-21T16:37:19.144341':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    smallest_factor.adb:4:11: medium: postcondition might fail, cannot prove Factor
+    > 1[#0]
+
+    Summary logged in /home/pawel/Desktop/niezawodne/lista1/gnatprove/gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-21T16:37:19.144341'
+'2021-03-21T16:37:51.283129':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in /home/pawel/Desktop/niezawodne/lista1/gnatprove/gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-21T16:37:51.283129'
+'2021-03-21T16:57:59.580643':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/zadanie1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in /home/pawel/Desktop/niezawodne/lista1/zadanie1/gnatprove/gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-21T16:57:59.580643'
+'2021-03-21T19:24:07.578985':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/zadanie1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in /home/pawel/Desktop/niezawodne/lista1/zadanie1/gnatprove/gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-21T19:24:07.578985'
+'2021-03-24T10:50:23.238503':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/zadanie1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    smallest_factor.adb:1:01: compilation unit expected
+
+    smallest_factor.adb:2:01: misplaced "with"
+
+    smallest_factor.adb:3:06: missing ";"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-24T10:50:23.238503'
+'2021-03-24T10:50:56.638913':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/zadanie1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in /home/pawel/Desktop/niezawodne/lista1/zadanie1/gnatprove/gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-24T10:50:56.638913'
+'2021-03-24T11:30:53.995924':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/zadanie1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:5:20: expected type "Standard.Integer"
+
+    main.adb:5:20: found type "Standard.String"
+
+    main.adb:8:09: "smallest_fastor" is undefined
+
+    main.adb:8:09: possible misspelling of "smallest_factor"
+
+    main.adb:9:04: no candidate interpretations match the actuals:
+
+    main.adb:9:04: too many arguments in call to "Put_Line"
+
+    main.adb:9:30: expected type "Standard.String"
+
+    main.adb:9:30: found type "Standard.Integer"
+
+    main.adb:9:30:   ==> in call to "Put_Line" at a-textio.ads:498
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-24T11:30:53.995924'
+'2021-03-24T11:31:42.256585':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/zadanie1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:5:20: expected type "Standard.Integer"
+
+    main.adb:5:20: found type "Standard.String"
+
+    main.adb:8:09: missing argument for parameter "Factor" in call to "Smallest_Factor"
+    declared at smallest_factor.adb:1
+
+    main.adb:9:04: no candidate interpretations match the actuals:
+
+    main.adb:9:04: too many arguments in call to "Put_Line"
+
+    main.adb:9:30: expected type "Standard.String"
+
+    main.adb:9:30: found type "Standard.Integer"
+
+    main.adb:9:30:   ==> in call to "Put_Line" at a-textio.ads:498
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-24T11:31:42.256585'
+'2021-03-24T11:32:26.146033':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/zadanie1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:5:20: expected type "Standard.Integer"
+
+    main.adb:5:20: found type "Standard.String"
+
+    main.adb:9:04: no candidate interpretations match the actuals:
+
+    main.adb:9:04: too many arguments in call to "Put_Line"
+
+    main.adb:9:30: expected type "Standard.String"
+
+    main.adb:9:30: found type "Standard.Integer"
+
+    main.adb:9:30:   ==> in call to "Put_Line" at a-textio.ads:498
+
+    main.adb:10:04: no candidate interpretations match the actuals:
+
+    main.adb:10:04: too many arguments in call to "Put_Line"
+
+    main.adb:10:30: expected type "Standard.String"
+
+    main.adb:10:30: found type "Standard.Integer"
+
+    main.adb:10:30:   ==> in call to "Put_Line" at a-textio.ads:498
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-24T11:32:26.146033'
+'2021-03-24T11:33:22.459282':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/zadanie1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:6:20: expected type "Standard.Integer"
+
+    main.adb:6:20: found type "Standard.String"
+
+    main.adb:10:23: "Put_Line" not declared in "Integer_Text_IO"
+
+    main.adb:11:23: "Put_Line" not declared in "Integer_Text_IO"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-24T11:33:22.459282'
+'2021-03-24T11:33:48.888038':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/zadanie1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:6:20: expected type "Standard.Integer"
+
+    main.adb:6:20: found type "Standard.String"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-24T11:33:48.888038'
+'2021-03-24T11:34:04.210491':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/zadanie1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:6:30: binary operator expected
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-24T11:34:04.210491'
+'2021-03-24T11:35:07.220816':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/zadanie1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:6:29: illegal operand for numeric conversion
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-24T11:35:07.220816'
+'2021-03-24T11:37:06.617885':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/zadanie1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    main.adb:9:04: no candidate interpretations match the actuals:
+
+    main.adb:9:04: missing argument for parameter "Item" in call to "Get" declared
+    at a-textio.ads:451
+
+    main.adb:9:04: missing argument for parameter "Item" in call to "Get" declared
+    at a-textio.ads:378
+
+    main.adb:9:08: expected type "Standard.String"
+
+    main.adb:9:08: found type "Standard.Integer"
+
+    main.adb:9:08:   ==> in call to "Get" at a-textio.ads:454
+
+    main.adb:9:08:   ==> in call to "Get" at a-textio.ads:381
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-24T11:37:06.617885'
+'2021-03-31T10:52:06.170159':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/zadanie1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in /home/pawel/Desktop/niezawodne/lista1/zadanie1/gnatprove/gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-31T10:52:06.170159'
+'2021-03-31T12:27:18.172586':
+  category: GNATprove
+  files:
+  - /home/pawel/Desktop/niezawodne/lista1/zadanie1/gnatprove
+  label: Basic Prove All Sources
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in /home/pawel/Desktop/niezawodne/lista1/zadanie1/gnatprove/gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-03-31T12:27:18.172586'

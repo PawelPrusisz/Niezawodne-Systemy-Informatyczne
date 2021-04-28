@@ -1,0 +1,3 @@
+isprime.adb:20:10: "Break" is undefined
+isprime.adb:21:13: missing ";"
+isprime.adb:22:12: missing ";"

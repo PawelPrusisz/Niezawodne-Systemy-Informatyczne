@@ -1,0 +1,1 @@
+max2.adb:23:32: medium: loop invariant might not be preserved by an arbitrary iteration (e.g. when K = 3 and V = (0 => 2, 2 => 3, 3 => 3, others => 1) and V'First = 0 and V'Last = 3 and mx2 = 3)[#0]

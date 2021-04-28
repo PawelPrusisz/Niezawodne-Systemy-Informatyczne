@@ -1,0 +1,10 @@
+isprime.adb:2:51: missing ";"
+isprime.adb:3:06: missing "begin" for package body "Poly" at line 1
+isprime.adb:5:13: statement expected
+isprime.adb:6:16: "else" not allowed here
+isprime.adb:7:17: statement expected
+isprime.adb:24:01: "end;" expected for "begin" at line 12
+isprime.adb:24:13: missing "end loop;" for "loop" at line 7
+isprime.adb:24:13: missing "end loop;" for "loop" at line 5
+isprime.adb:24:13: missing "end if;" for "if" at line 4
+isprime.adb:24:13: missing "end Poly;"

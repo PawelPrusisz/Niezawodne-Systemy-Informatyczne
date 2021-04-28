@@ -1,0 +1,39 @@
+V "GNAT Lib v2020"
+A -x
+A ada
+A -gnatA
+A -gnatc
+P GP FX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U poly%b		poly.adb		5dd87319 OO PK
+
+U poly%s		poly.ads		37326999 OO PK
+
+D poly.ads		20210321192742 37326999 poly%s
+D poly.adb		20210324111500 6aea1a80 poly%b
+D system.ads		20200228061809 4635ec04 system%s
+G a Z
+X 1 poly.ads
+1K9*Poly 7l5 7e9 2|3b14 26l5 26t9
+3A9*Vector(integer)<integer> 5r36 2|4r39
+5V13*Horner{integer} 5>21 5>33 2|4b14 25l8 25t14
+5i21 X{integer} 2|4b22 16r24 17r28
+5a33 A{3A9} 2|4b35 14r16 14r27 16r29 16r31 17r20
+X 2 poly.adb
+8i4 Ans{integer} 16m10 16r18 21r33 23r23 24r11
+9i4 Z{integer} 17m10 17r15 21r40 23r19
+14i11 I{integer} 16r40 17r22 17r31
+
+QQ SPARKVERSION SPARK Community 2020 (20200429)
+GG EK_DIRECT_CALLS poly__horner 0
+GG EK_GLOBALS poly__horner local FALSE E_FUNCTION FALSE ORIGIN_FLOW 1 poly proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS poly 0
+GG EK_GLOBALS poly local FALSE E_PACKAGE TRUE ORIGIN_FLOW 0 proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_FLOW_SCOPE poly TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE poly__horner FALSE FALSE FALSE FALSE TRUE poly VISIBLE_PART
+GG EK_END_MARKER

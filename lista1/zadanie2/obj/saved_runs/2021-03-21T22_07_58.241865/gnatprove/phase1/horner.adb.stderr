@@ -1,0 +1,3 @@
+horner.adb:28:25: invalid operand types for operator "="
+horner.adb:28:25: left operand has type "Vector" defined at poly.ads:3
+horner.adb:28:25: right operand has type "Standard.Integer"

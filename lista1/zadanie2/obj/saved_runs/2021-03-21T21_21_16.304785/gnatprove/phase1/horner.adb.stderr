@@ -1,0 +1,5 @@
+horner.adb:19:13: missing "then"
+horner.adb:20:05: statement expected
+horner.adb:20:06: illegal character, replaced by "("
+horner.adb:22:05: statement expected
+horner.adb:22:06: illegal character, replaced by ")"

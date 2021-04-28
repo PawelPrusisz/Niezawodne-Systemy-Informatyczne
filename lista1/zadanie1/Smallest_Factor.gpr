@@ -1,0 +1,6 @@
+project Smallest_Factor is
+
+   for Main use ("main.adb");
+
+end Smallest_Factor;
+

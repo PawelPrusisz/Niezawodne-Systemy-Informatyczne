@@ -1,0 +1,2 @@
+horner.adb:3:04: declarations must come before "begin"
+horner.adb:7:24: illegal character

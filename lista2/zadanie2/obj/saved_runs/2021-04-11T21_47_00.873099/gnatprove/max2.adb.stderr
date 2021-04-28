@@ -1,0 +1,2 @@
+max2.adb:24:108: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove V(I) = V(J) (e.g. when I = 0 and J = 1 and V = (0 => 2, others => 1) and V'First = 0 and V'Last = 1) [possible explanation: precondition of subprogram at max2.ads:4 should mention V][#1]
+max2.adb:25:83: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove V(I) = mx1 (e.g. when I = 3 and V = (0 => 2, 1 => 1, 2 => 4, others => 3) and V'First = 0 and V'Last = 3 and mx1 = 4)[#0]

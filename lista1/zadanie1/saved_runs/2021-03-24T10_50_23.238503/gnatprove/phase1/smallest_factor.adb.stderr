@@ -1,0 +1,3 @@
+smallest_factor.adb:1:01: compilation unit expected
+smallest_factor.adb:2:01: misplaced "with"
+smallest_factor.adb:3:06: missing ";"

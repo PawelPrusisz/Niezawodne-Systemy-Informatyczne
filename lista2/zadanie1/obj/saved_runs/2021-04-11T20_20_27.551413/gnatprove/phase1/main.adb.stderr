@@ -1,0 +1,3 @@
+main.adb:5:08: "Vector" is undefined
+main.adb:9:04: "ans" is undefined (more references follow)
+main.adb:9:11: "FindMax2" is undefined

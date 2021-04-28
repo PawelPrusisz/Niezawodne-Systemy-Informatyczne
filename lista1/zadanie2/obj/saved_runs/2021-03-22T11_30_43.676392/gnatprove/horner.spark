@@ -1,0 +1,2673 @@
+{
+  "spark": [
+    {
+      "name": "Horner",
+      "sloc": [
+        {
+          "file": "horner.adb",
+          "line": 3
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+  ],
+  "session_map": {
+    " 1": "/home/pawel/Desktop/niezawodne/lista1/zadanie2/obj/gnatprove/horner"
+  },
+  "proof": [
+    {
+      "file": "horner.adb",
+      "line": 15,
+      "col": 17,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 15,
+      "check_col": 17,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "horner.adb",
+      "line": 18,
+      "col": 19,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 18,
+      "check_col": 19,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "horner.adb",
+      "line": 19,
+      "col": 19,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 19,
+      "check_col": 19,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "horner.adb",
+      "line": 20,
+      "col": 19,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 20,
+      "check_col": 19,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "horner.adb",
+      "line": 21,
+      "col": 19,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 21,
+      "check_col": 19,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "horner.adb",
+      "line": 22,
+      "col": 20,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 22,
+      "check_col": 20,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "horner.adb",
+      "line": 27,
+      "col": 23,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 27,
+      "check_col": 23,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "horner.adb",
+      "line": 28,
+      "col": 28,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 1
+            },
+            "CVC4_CE": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 1
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 28,
+      "check_col": 28,
+      "cntexmp": {
+        "horner.adb": {
+          "previous": {
+            "25": [
+              {
+                "name": "Ans",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "Z",
+                "value": "2",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "3": [
+              {
+                "name": "A",
+                "value": "(0 => 0, others => 0)",
+                "kind": "variable"
+              },
+              {
+                "name": "A'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "A'Last",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "-2",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "X",
+                "value": "-2",
+                "kind": "variable"
+              }
+            ],
+            "18": [
+              {
+                "name": "X",
+                "value": "-2",
+                "kind": "variable"
+              }
+            ],
+            "23": [
+              {
+                "name": "A",
+                "value": "(0 => 0, others => 0)",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "24": [
+              {
+                "name": "Z",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "25": [
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "27": [
+              {
+                "name": "Z",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "28": [
+              {
+                "name": "Ans",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "-2",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 0,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "horner.adb",
+      "line": 28,
+      "col": 33,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 1
+            },
+            "CVC4_CE": {
+              "result": "Timeout",
+              "steps": 8521,
+              "time": 1
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 28,
+      "check_col": 33,
+      "cntexmp": {
+        "horner.adb": {
+          "previous": {
+            "25": [
+              {
+                "name": "Ans",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "Z",
+                "value": "0",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "3": [
+              {
+                "name": "A",
+                "value": "(others => -2147483649)",
+                "kind": "variable"
+              },
+              {
+                "name": "A'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "A'Last",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "18": [
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "23": [
+              {
+                "name": "A",
+                "value": "(others => -2147483649)",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "24": [
+              {
+                "name": "Z",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "25": [
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "27": [
+              {
+                "name": "Z",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "28": [
+              {
+                "name": "A",
+                "value": "(others => -2147483649)",
+                "kind": "variable"
+              },
+              {
+                "name": "A'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "A'Last",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "Ans",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 1,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "horner.adb",
+      "line": 28,
+      "col": 62,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 13,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 28,
+      "check_col": 62,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "horner.adb",
+      "line": 28,
+      "col": 60,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 1
+            },
+            "CVC4_CE": {
+              "result": "Timeout",
+              "steps": 7791,
+              "time": 1
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 28,
+      "check_col": 60,
+      "cntexmp": {
+        "horner.adb": {
+          "previous": {
+            "25": [
+              {
+                "name": "Ans",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "Z",
+                "value": "0",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "3": [
+              {
+                "name": "A",
+                "value": "(others => 0)",
+                "kind": "variable"
+              },
+              {
+                "name": "A'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "A'Last",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "18": [
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "23": [
+              {
+                "name": "A",
+                "value": "(others => 0)",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "24": [
+              {
+                "name": "Z",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "25": [
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "27": [
+              {
+                "name": "Z",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "28": [
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 2,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "horner.adb",
+      "line": 28,
+      "col": 56,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 1
+            },
+            "CVC4_CE": {
+              "result": "Timeout",
+              "steps": 8144,
+              "time": 1
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 28,
+      "check_col": 56,
+      "cntexmp": {
+        "horner.adb": {
+          "previous": {
+            "25": [
+              {
+                "name": "Ans",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "Z",
+                "value": "0",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "3": [
+              {
+                "name": "A",
+                "value": "(others => 2)",
+                "kind": "variable"
+              },
+              {
+                "name": "A'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "A'Last",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "18": [
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "23": [
+              {
+                "name": "A",
+                "value": "(others => 2)",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "24": [
+              {
+                "name": "Z",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "25": [
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "27": [
+              {
+                "name": "Z",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "28": [
+              {
+                "name": "A",
+                "value": "(others => 2)",
+                "kind": "variable"
+              },
+              {
+                "name": "A'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "A'Last",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 3,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "horner.adb",
+      "line": 28,
+      "col": 48,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 1
+            },
+            "CVC4_CE": {
+              "result": "Timeout",
+              "steps": 7797,
+              "time": 1
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 28,
+      "check_col": 48,
+      "cntexmp": {
+        "horner.adb": {
+          "previous": {
+            "25": [
+              {
+                "name": "Ans",
+                "value": "Integer'First",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "Z",
+                "value": "Integer'First",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "3": [
+              {
+                "name": "A",
+                "value": "(others => 1)",
+                "kind": "variable"
+              },
+              {
+                "name": "A'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "A'Last",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "18": [
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "23": [
+              {
+                "name": "A",
+                "value": "(others => 1)",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "24": [
+              {
+                "name": "Z",
+                "value": "Integer'First",
+                "kind": "variable"
+              }
+            ],
+            "25": [
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "27": [
+              {
+                "name": "Z",
+                "value": "Integer'First",
+                "kind": "variable"
+              }
+            ],
+            "28": [
+              {
+                "name": "A",
+                "value": "(others => 1)",
+                "kind": "variable"
+              },
+              {
+                "name": "A'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "A'Last",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              },
+              {
+                "name": "Z",
+                "value": "Integer'First",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 4,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "horner.adb",
+      "line": 28,
+      "col": 22,
+      "rule": "VC_ASSERT",
+      "severity": "medium",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 1
+            },
+            "CVC4_CE": {
+              "result": "Timeout",
+              "steps": 8544,
+              "time": 1
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 28,
+      "check_col": 22,
+      "cntexmp": {
+        "horner.adb": {
+          "previous": {
+            "25": [
+              {
+                "name": "Ans",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "Z",
+                "value": "0",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "3": [
+              {
+                "name": "A",
+                "value": "(others => 1)",
+                "kind": "variable"
+              },
+              {
+                "name": "A'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "A'Last",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "18": [
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "23": [
+              {
+                "name": "A",
+                "value": "(others => 1)",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "24": [
+              {
+                "name": "Z",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "25": [
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "27": [
+              {
+                "name": "Z",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "28": [
+              {
+                "name": "A",
+                "value": "(others => 1)",
+                "kind": "variable"
+              },
+              {
+                "name": "A'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "A'Last",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "Ans",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              },
+              {
+                "name": "Z",
+                "value": "0",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 5,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "horner.adb",
+      "line": 29,
+      "col": 19,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 1
+            },
+            "CVC4_CE": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 1
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 29,
+      "check_col": 19,
+      "cntexmp": {
+        "horner.adb": {
+          "previous": {
+            "25": [
+              {
+                "name": "Ans",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "Z",
+                "value": "2",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "3": [
+              {
+                "name": "A",
+                "value": "(0 => -3, others => 0)",
+                "kind": "variable"
+              },
+              {
+                "name": "A'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "A'Last",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "-3",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "X",
+                "value": "-3",
+                "kind": "variable"
+              }
+            ],
+            "18": [
+              {
+                "name": "X",
+                "value": "-3",
+                "kind": "variable"
+              }
+            ],
+            "23": [
+              {
+                "name": "A",
+                "value": "(0 => -3, others => 0)",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "24": [
+              {
+                "name": "Z",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "25": [
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "27": [
+              {
+                "name": "Z",
+                "value": "2",
+                "kind": "variable"
+              }
+            ],
+            "28": [
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "29": [
+              {
+                "name": "Ans",
+                "value": "2",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "-3",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 6,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "horner.adb",
+      "line": 29,
+      "col": 24,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 1
+            },
+            "CVC4_CE": {
+              "result": "Timeout",
+              "steps": 8913,
+              "time": 1
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 29,
+      "check_col": 24,
+      "cntexmp": {
+        "horner.adb": {
+          "previous": {
+            "25": [
+              {
+                "name": "Ans",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "Z",
+                "value": "1",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "3": [
+              {
+                "name": "A",
+                "value": "(others => -1)",
+                "kind": "variable"
+              },
+              {
+                "name": "A'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "A'Last",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "Integer'First",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "X",
+                "value": "Integer'First",
+                "kind": "variable"
+              }
+            ],
+            "18": [
+              {
+                "name": "X",
+                "value": "Integer'First",
+                "kind": "variable"
+              }
+            ],
+            "23": [
+              {
+                "name": "A",
+                "value": "(others => -1)",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "24": [
+              {
+                "name": "Z",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "25": [
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "27": [
+              {
+                "name": "Z",
+                "value": "1",
+                "kind": "variable"
+              }
+            ],
+            "28": [
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "29": [
+              {
+                "name": "A",
+                "value": "(others => -1)",
+                "kind": "variable"
+              },
+              {
+                "name": "A'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "A'Last",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "Ans",
+                "value": "1",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "Integer'First",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 7,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "horner.adb",
+      "line": 30,
+      "col": 28,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 13,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 30,
+      "check_col": 28,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "horner.adb",
+      "line": 30,
+      "col": 26,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 1
+            },
+            "CVC4_CE": {
+              "result": "Timeout",
+              "steps": 7852,
+              "time": 1
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 30,
+      "check_col": 26,
+      "cntexmp": {
+        "horner.adb": {
+          "previous": {
+            "25": [
+              {
+                "name": "Ans",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "Z",
+                "value": "0",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "3": [
+              {
+                "name": "A",
+                "value": "(0 => 0, others => 0)",
+                "kind": "variable"
+              },
+              {
+                "name": "A'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "A'Last",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "18": [
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "23": [
+              {
+                "name": "A",
+                "value": "(0 => 0, others => 0)",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "24": [
+              {
+                "name": "Z",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "25": [
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "27": [
+              {
+                "name": "Z",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "28": [
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "29": [
+              {
+                "name": "Ans",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "30": [
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 8,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "horner.adb",
+      "line": 30,
+      "col": 22,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 1
+            },
+            "CVC4_CE": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 1
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 30,
+      "check_col": 22,
+      "cntexmp": {
+        "horner.adb": {
+          "previous": {
+            "25": [
+              {
+                "name": "Ans",
+                "value": "3",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "Z",
+                "value": "3",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "3": [
+              {
+                "name": "A",
+                "value": "(others => 2)",
+                "kind": "variable"
+              },
+              {
+                "name": "A'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "A'Last",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "-2",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "X",
+                "value": "-2",
+                "kind": "variable"
+              }
+            ],
+            "18": [
+              {
+                "name": "X",
+                "value": "-2",
+                "kind": "variable"
+              }
+            ],
+            "23": [
+              {
+                "name": "A",
+                "value": "(others => 2)",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "24": [
+              {
+                "name": "Z",
+                "value": "3",
+                "kind": "variable"
+              }
+            ],
+            "25": [
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "27": [
+              {
+                "name": "Z",
+                "value": "3",
+                "kind": "variable"
+              }
+            ],
+            "28": [
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "29": [
+              {
+                "name": "Ans",
+                "value": "-4",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "-2",
+                "kind": "variable"
+              }
+            ],
+            "30": [
+              {
+                "name": "A",
+                "value": "(others => 2)",
+                "kind": "variable"
+              },
+              {
+                "name": "A'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "A'Last",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "P",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "-2",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 9,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "horner.adb",
+      "line": 30,
+      "col": 14,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 33,
+              "time": 1.00000000000000E-02
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 30,
+      "check_col": 14,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 9.99999977648258E-03
+        }
+      }
+    },
+    {
+      "file": "horner.adb",
+      "line": 31,
+      "col": 14,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 1
+            },
+            "CVC4_CE": {
+              "result": "Timeout",
+              "steps": -1,
+              "time": 1
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 31,
+      "check_col": 14,
+      "cntexmp": {
+        "horner.adb": {
+          "previous": {
+            "25": [
+              {
+                "name": "Ans",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "P",
+                "value": "Integer'Last",
+                "kind": "variable"
+              },
+              {
+                "name": "Z",
+                "value": "0",
+                "kind": "variable"
+              }
+            ]
+          },
+          "current": {
+            "3": [
+              {
+                "name": "A",
+                "value": "(0 => 0, others => 0)",
+                "kind": "variable"
+              },
+              {
+                "name": "A'First",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "A'Last",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "14": [
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "18": [
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "23": [
+              {
+                "name": "A",
+                "value": "(0 => 0, others => 0)",
+                "kind": "variable"
+              },
+              {
+                "name": "I",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "24": [
+              {
+                "name": "Z",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "25": [
+              {
+                "name": "P",
+                "value": "Integer'Last",
+                "kind": "variable"
+              }
+            ],
+            "27": [
+              {
+                "name": "Z",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "28": [
+              {
+                "name": "P",
+                "value": "Integer'Last",
+                "kind": "variable"
+              }
+            ],
+            "29": [
+              {
+                "name": "Ans",
+                "value": "0",
+                "kind": "variable"
+              },
+              {
+                "name": "X",
+                "value": "-1",
+                "kind": "variable"
+              }
+            ],
+            "30": [
+              {
+                "name": "P",
+                "value": "Integer'Last",
+                "kind": "variable"
+              },
+              {
+                "name": "Z",
+                "value": "0",
+                "kind": "variable"
+              }
+            ],
+            "31": [
+              {
+                "name": "P",
+                "value": "Integer'Last",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 10,
+      "session_dir": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "horner.adb",
+      "line": 25,
+      "col": 31,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 25,
+      "check_col": 31,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "horner.adb",
+      "line": 25,
+      "col": 31,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "info",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 20,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 25,
+      "check_col": 31,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "horner.adb",
+      "line": 24,
+      "col": 31,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "info",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 24,
+      "check_col": 31,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "horner.adb",
+      "line": 24,
+      "col": 31,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 24,
+      "check_col": 31,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "horner.adb",
+      "line": 26,
+      "col": 7,
+      "rule": "VC_LOOP_VARIANT",
+      "severity": "info",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 26,
+      "check_col": 7,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "horner.adb",
+      "line": 37,
+      "col": 19,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "entity": {
+        "name": "Horner",
+        "sloc": [
+          {
+            "file": "horner.adb",
+            "line": 3
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 18,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "horner.adb",
+      "check_line": 37,
+      "check_col": 19,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Horner",
+          "sloc": [
+            {
+              "file": "horner.adb",
+              "line": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "gnatwhy3.transformations.inline_trivial": 1.12989199161530E+00,
+    "codepeer results": 4.70000013592653E-05,
+    "init_why_sections": 6.58000004477799E-04,
+    "gnatwhy3.transformations.detect_polymorphism": 2.94600008055568E-03,
+    "globals/properties (advanced)": 1.40380002558231E-02,
+    "gnatwhy3.transformations.eliminate_literal": 5.84100000560284E-03,
+    "gnatwhy3.run_vcs": 6.61718010902405E-01,
+    "gnatwhy3.transformations.eliminate_algebraic_if_poly": 5.02400007098913E-03,
+    "gnatwhy3.transformations.eliminate_definition_if_poly": 5.26899984106421E-03,
+    "flow analysis": 1.97599991224706E-03,
+    "gnatwhy3.transformations.simplify_formula": 6.14499999210238E-03,
+    "marking": 1.67999998666346E-04,
+    "translation of standard": 5.20600005984306E-03,
+    "gnatwhy3.register_vcs": 2.38700001500547E-03,
+    "gnatwhy3.transformations.eliminate_epsilon": 5.56300021708012E-03,
+    "globals (basic)": 2.53000005614012E-04,
+    "gnatwhy3.schedule_vcs": 1.99100002646446E-03,
+    "gnatwhy3.transformations.prepare_for_counterexmp": 2.18119993805885E-02,
+    "gnatwhy3.save_session": 1.12600000575185E-02,
+    "gnatwhy3.transformations.eliminate_inductive": 2.66800005920231E-03,
+    "gnatwhy3.transformations.encoding_smt_if_poly": 5.29999997525010E-05,
+    "gnatwhy3.transformations.eliminate_unused_hypo": 1.17036998271942E-01,
+    "gnatwhy3.transformations.eliminate_builtin": 4.44100005552173E-03,
+    "gnatwhy3.transformations.discriminate_if_poly": 1.32000001030974E-04,
+    "gnatwhy3.init": 3.38892012834549E-01
+  }
+}

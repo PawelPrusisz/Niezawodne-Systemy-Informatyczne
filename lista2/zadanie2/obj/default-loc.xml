@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>/home/pawel/Desktop/ADA/lista2/zadanie2/default.gpr</vfs_file>
+    <file_marker column=" 6" line=" 8" >
+      <vfs_project>/home/pawel/Desktop/ADA/lista2/zadanie2/default.gpr</vfs_project>
+      <vfs_file>/home/pawel/Desktop/ADA/lista2/zadanie2/src/max2.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 29" >
+      <vfs_project>/home/pawel/Desktop/ADA/lista2/zadanie2/default.gpr</vfs_project>
+      <vfs_file>/home/pawel/Desktop/ADA/lista2/zadanie2/src/max2.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

@@ -1,0 +1,2 @@
+isprime.adb:4:11: medium: postcondition might fail (e.g. when N = 3)[#1]
+isprime.adb:18:72: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove N rem K /= 0 (e.g. when K = 3 and N = 7)[#0]

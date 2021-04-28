@@ -1,0 +1,65 @@
+V "GNAT Lib v2020"
+A -x
+A ada
+A -gnatA
+A -gnatc
+P GP FX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U max2%b		max2.adb		ad4e2e47 OO PK
+
+U max2%s		max2.ads		5c94bbc3 OO PK
+
+D max2.ads		20210411193016 5c94bbc3 max2%s
+D max2.adb		20210411203529 f1da9584 max2%b
+D system.ads		20200228061809 4635ec04 system%s
+G a Z
+X 1 max2.ads
+1K9*Max2 21l5 21e9 2|1b14 38l5 38t9
+2A9*Vector(positive)<integer> 4r27 2|2r27
+4V13*FindMax2{integer} 4>23 7r14 8r7 9r35 10r10 11r45 12r10 18r25 2|2b13
+. 37l8 37t16
+4a23 V{2A9} 6r13 6r40 9r24 9r53 11r27 11r38 14r25 15r30 15r41 15r48 17r23
+. 18r18 19r31 19r42 19r50 2|2b23 11r16 11r27 12r13 14r20 16r13 17r23 21r45
+. 21r68 22r46 22r68 24r64 24r80 25r64 25r80 26r49 26r79 26r95 26r102 27r45
+. 27r66 27r97 27r113 29r45 29r66 29r84 31r62 31r92 31r108 31r115 32r45 32r66
+. 32r97 32r113 32r121
+9i19 I{integer} 9r55
+11i22 I{integer} 11r40
+14i20 I{integer} 15r43
+15i25 J{integer} 15r50
+17i18 I{integer} 18r20 19r52
+19i26 J{integer} 19r44
+X 2 max2.adb
+6i7 mx1{integer} 12r20 13r20 14m13 19r32 21r61 22r62 23r49 27r121 29r74
+7i7 mx2{integer} 13m13 16r20 17m16 20r32 23r35 23r55 24r35 24r87 25r35 25r87
+. 26r114 27r73 29r92 31r35 32r73 36r14
+11i11 K{integer} 12r15 14r22 16r15 17r25 21r56 22r57 24r75 25r75 26r60 26r90
+. 27r56 27r108 29r56 31r73 31r103 32r56 32r108
+21i40 I{integer} 21r70
+22i41 I{integer} 22r70
+24i59 I{integer} 24r82
+25i59 I{integer} 25r82
+26i44 I{integer} 26r97
+26i74 J{integer} 26r104
+27i40 I{integer} 27r68
+27i92 J{integer} 27r115
+29i40 I{integer} 29r68 29r86
+31i57 I{integer} 31r110
+31i87 J{integer} 31r117
+32i40 I{integer} 32r68 32r123
+32i92 J{integer} 32r115
+
+QQ SPARKVERSION SPARK Community 2020 (20200429)
+GG EK_DIRECT_CALLS max2__findmax2 0
+GG EK_GLOBALS max2__findmax2 local FALSE E_FUNCTION FALSE ORIGIN_FLOW 1 max2 proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS max2 0
+GG EK_GLOBALS max2 local FALSE E_PACKAGE TRUE ORIGIN_FLOW 0 proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_FLOW_SCOPE max2__findmax2 FALSE FALSE FALSE FALSE TRUE max2 VISIBLE_PART
+GG EK_FLOW_SCOPE max2 TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_END_MARKER

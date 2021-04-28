@@ -1,0 +1,10 @@
+isprime.adb:2:51: missing ";"
+isprime.adb:3:06: missing "begin" for package body "Primes" at line 1
+isprime.adb:5:13: statement expected
+isprime.adb:6:16: "else" not allowed here
+isprime.adb:7:17: statement expected
+isprime.adb:24:04: no "begin" for this "end"
+isprime.adb:25:01: "end;" expected for "begin" at line 12
+isprime.adb:25:01: "end loop;" expected for "loop" at line 7
+isprime.adb:25:01: "end loop;" expected for "loop" at line 5
+isprime.adb:25:01: "end if;" expected for "if" at line 4

@@ -1,0 +1,36 @@
+V "GNAT Lib v2020"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U poly%b		poly.adb		cfb2596e NE OO PK
+Z system.exp_int%s	s-expint.adb		s-expint.ali
+
+U poly%s		poly.ads		37326999 EE NE OO PK
+
+D poly.ads		20210331084313 37326999 poly%s
+D poly.adb		20210331101147 f88030f7 poly%b
+D system.ads		20200228061809 4635ec04 system%s
+D s-expint.ads		20200228061809 192336fc system.exp_int%s
+G a e
+G c Z s b [horner poly 5 13 none]
+G c Z s s [vectorIP poly 3 9 none]
+X 1 poly.ads
+1K9*Poly 7l5 7e9 2|1b14 22l5 22t9
+3A9*Vector(integer)<integer> 5r36 2|2r39
+5V13*Horner{integer} 5>21 5>33 2|2b14 21l8 21t14
+5i21 X{integer} 2|2b22 15r24 16r28 17r38
+5a33 A{3A9} 2|2b35 13r24 13r35 15r29 16r20 16r36 17r46
+X 2 poly.adb
+6i4 Ans{integer} 15m10 15r18 17r33 20r11
+11i29 A{integer} 11r71 11r78 11r80
+11i54 B{positive} 11r74 11r84
+13i11 I{integer} 15r31 16r22 16r32 17r42
+

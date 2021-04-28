@@ -1,0 +1,4 @@
+isprime.adb:11:04: declarations must come before "begin"
+isprime.adb:17:15: missing ";"
+isprime.adb:18:13: missing ";"
+isprime.adb:19:12: missing ";"

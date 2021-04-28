@@ -1,0 +1,1 @@
+max2.adb:26:84: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove V(I) <= mx2 (e.g. when I = 1 and V = (0 => 2, others => 1) and V'First = 0 and V'Last = 1 and mx2 = 0)[#0]

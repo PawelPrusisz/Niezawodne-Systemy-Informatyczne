@@ -1,0 +1,1 @@
+smallest_factor.adb:13:07: pragma "loop_invariant" must appear next to pragma at line 11

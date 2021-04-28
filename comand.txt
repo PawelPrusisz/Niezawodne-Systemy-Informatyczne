@@ -1,0 +1,2 @@
+export PATH=$PATH:/home/pawel/opt/GNAT/2020/bin
+

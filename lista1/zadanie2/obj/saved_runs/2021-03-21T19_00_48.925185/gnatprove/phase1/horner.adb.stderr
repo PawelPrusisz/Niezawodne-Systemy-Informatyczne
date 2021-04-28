@@ -1,0 +1,2 @@
+horner.adb:18:38: attribute "Old" can only appear in postcondition
+horner.adb:19:36: attribute "Old" can only appear in postcondition

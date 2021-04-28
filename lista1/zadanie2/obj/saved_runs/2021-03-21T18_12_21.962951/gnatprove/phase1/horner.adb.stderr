@@ -1,0 +1,2 @@
+horner.adb:2:36: "Vector" is not visible
+horner.adb:2:36: non-visible declaration at poly.ads:3

@@ -1,0 +1,7 @@
+main.adb:9:04: no candidate interpretations match the actuals:
+main.adb:9:04: missing argument for parameter "Item" in call to "Get" declared at a-textio.ads:451
+main.adb:9:04: missing argument for parameter "Item" in call to "Get" declared at a-textio.ads:378
+main.adb:9:08: expected type "Standard.String"
+main.adb:9:08: found type "Standard.Integer"
+main.adb:9:08:   ==> in call to "Get" at a-textio.ads:454
+main.adb:9:08:   ==> in call to "Get" at a-textio.ads:381
